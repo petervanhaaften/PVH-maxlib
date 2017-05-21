@@ -1,0 +1,27 @@
+UPDATES:
+
+1) Fixed all the weird ratio/manual mode switching bugs (I think!)
+
+2) Added Sine --> Square sweeping. Like on the 258, there is a switch to change from Sine --> Saw and Sine --> Square modes, but we could change that to a single knob with square on left, sine in middle, saw on right if you need.
+
+3) Made simple help file.
+
+4) Changed to 16X oversampling (uses 30% of one core on my 2012 mbpro. . .). I couldn't get the "up X" messages into poly~ to work. . .
+
+TO DO (in order if importance):
+
+1) Allow all parameters to be controlled by signals. Should be easy but I've not done that with Jamoma yet & need to dig into the docs.
+
+2) The modulator osc index seems to  fade in too fast when set to Sine --> Square mode. Not sure what's up with that, but it could be an issue with the knob exponential factor?
+
+3) Generally improve responsiveness of the sliders (especially Carrier freq and Modulator freq sliders).
+
+4) Wavefolding seems to cause a slight amplitude bump. . .
+
+5) Make poly~ oversampling variable.
+
+6) Improve noise filtering, right now the modulator noise osc is low passed filtered with the cutoff set automatically as a ratio of the fundamental carrier frequency. Might be more useful with a slider or number box.
+
+7) Fix the scope so it auto scales to show a clear single (or maybe few) cycles of the oscillator. I've seen this kind of scope scaling functionality in your nav.scale~ object.
+
+8) Improve & finalize help file.
