@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 7,
-			"minor" : 2,
-			"revision" : 5,
+			"minor" : 3,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,6 +37,30 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 586.0, 52.0, 46.0, 20.0 ],
+					"style" : "",
+					"text" : "------>"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 442.0, 52.0, 150.0, 20.0 ],
+					"style" : "",
+					"text" : "sets carrier osc frequency"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-35",
 					"linecount" : 2,
@@ -278,7 +302,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 586.0, 58.0, 46.0, 20.0 ],
+					"patching_rect" : [ 586.0, 78.5, 46.0, 20.0 ],
 					"style" : "",
 					"text" : "------>"
 				}
@@ -291,7 +315,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 343.0, 58.0, 240.0, 33.0 ],
+					"patching_rect" : [ 344.0, 72.0, 240.0, 33.0 ],
 					"style" : "",
 					"text" : "Saw/Sqr: switches carrier morph function between  sine and square or sine and saw."
 				}
@@ -400,40 +424,40 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-2::obj-30" : [ "live.toggle[2]", "live.toggle", 0 ],
-			"obj-2::obj-31" : [ "live.toggle[1]", "live.toggle", 0 ],
 			"obj-2::obj-45" : [ "live.numbox[29]", "live.numbox", 0 ],
-			"obj-2::obj-43" : [ "live.numbox[32]", "live.numbox", 0 ],
+			"obj-2::obj-31" : [ "live.toggle[1]", "live.toggle", 0 ],
+			"obj-2::obj-30" : [ "live.toggle[2]", "live.toggle", 0 ],
+			"obj-2::obj-16" : [ "live.dial[3]", "noise", 0 ],
 			"obj-2::obj-40" : [ "live.numbox[34]", "live.numbox", 0 ],
 			"obj-2::obj-10" : [ "live.dial", "morph", 0 ],
-			"obj-2::obj-36" : [ "live.numbox[30]", "live.numbox", 0 ],
-			"obj-2::obj-12" : [ "live.dial[2]", "index", 0 ],
-			"obj-2::obj-48" : [ "live.toggle", "live.toggle", 0 ],
 			"obj-2::obj-51" : [ "live.toggle[3]", "live.toggle", 0 ],
-			"obj-2::obj-16" : [ "live.dial[3]", "noise", 0 ]
+			"obj-2::obj-48" : [ "live.toggle", "live.toggle", 0 ],
+			"obj-2::obj-12" : [ "live.dial[2]", "index", 0 ],
+			"obj-2::obj-36" : [ "live.numbox[30]", "live.numbox", 0 ],
+			"obj-2::obj-43" : [ "live.numbox[32]", "live.numbox", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "pvh.complexosc~.model.maxpat",
-				"bootpath" : "~/src/max/PVH-maxlib/pvh.complexosc",
+				"bootpath" : "~/code/TML-depo/TML-code/PVH-maxlib/pvh.complexosc~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "polycomplexosc.maxpat",
-				"bootpath" : "~/src/max/PVH-maxlib/pvh.complexosc",
+				"bootpath" : "~/code/TML-depo/TML-code/PVH-maxlib/pvh.complexosc~/necessaryfiles",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "complexosc.gendsp",
-				"bootpath" : "~/src/max/PVH-maxlib/pvh.complexosc",
+				"bootpath" : "~/code/TML-depo/TML-code/PVH-maxlib/pvh.complexosc~/necessaryfiles",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pvh.complexosc~.view.maxpat",
-				"bootpath" : "~/src/max/PVH-maxlib/pvh.complexosc",
+				"bootpath" : "~/code/TML-depo/TML-code/PVH-maxlib/pvh.complexosc~",
 				"type" : "JSON",
 				"implicit" : 1
 			}
