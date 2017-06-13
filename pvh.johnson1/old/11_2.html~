@@ -1,0 +1,43 @@
+<html>
+<head>
+</head>
+<body>
+
+<script type="text/javascript">
+
+var origin		= "1 0 1";
+var len 		= origin.length;
+
+//individual sequences. . .
+var seq0 		= "0 0 1"
+var seq1 		= "1 1 0"
+var seq2 		= "0 2 1 0"
+var seq3 		= ""
+var seq4 		= ""
+var seq5 		= ""
+var seq6 		= ""
+var seq7 		= ""
+var seq8 		= ""
+var seq9 		= ""
+
+for (var j = 0; j < 5; j++) {
+	originLook();
+	document.write(origin + "<br/>");
+}
+
+//function for iterating each character
+//of a string
+function originLook(){
+	var newOrigin = "";
+	for (var i = 0; i < len; i++) {
+		newOrigin = origin.replace(/0/g, seq0);
+		newOrigin = newOrigin.replace(/1/g, seq1);
+		//newOrigin = newOrigin.replace(/2/g, seq2);
+	}
+	origin = newOrigin;
+}
+
+</script>
+
+</body>
+</html>

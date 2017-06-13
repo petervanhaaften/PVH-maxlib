@@ -1,0 +1,32 @@
+- cue "asdf"
+- description "something about this cue"
+# ###########################################
+# 
+/test/origin 45
+/test/seq0 11
+/test/seq1 0
+/test/seq2 23
+/test/seq3 32
+/test/seq4 45
+/test/seq5 54
+/test/seq6 0
+/test/seq7 0
+# 
+# ###########################################
+
+- cue "asdf2"
+- description "something about this cue"
+# ###########################################
+# 
+/test/origin 101
+/test/seq0 11
+/test/seq1 0
+/test/seq2 23
+/test/seq3 32
+/test/seq4 45
+/test/seq5 54
+/test/seq6 0
+/test/seq7 0
+# 
+# ###########################################
+
