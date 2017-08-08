@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -49,7 +49,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -431,7 +431,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -462,7 +462,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-13",
@@ -717,7 +716,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -943,7 +942,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -1160,7 +1159,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 4,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -1368,7 +1367,7 @@
 				"box" : 				{
 					"comment" : "sig input",
 					"id" : "obj-11",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1382,7 +1381,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 2,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1395,7 +1394,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1456,7 +1455,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
-					"midpoints" : [ 375.333344, 436.0, 254.5, 436.0 ],
+					"midpoints" : [ 375.333333, 436.0, 254.5, 436.0 ],
 					"source" : [ "obj-25", 2 ]
 				}
 
@@ -1606,7 +1605,33 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "j.parameter.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.out.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.return.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.in~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.model.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.receive.mxo",
+				"type" : "iLaX"
+			}
+ ],
+		"autosave" : 0
 	}
 
 }
