@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 378.0, 142.0, 1028.0, 652.0 ],
+		"rect" : [ 378.0, 126.0, 1028.0, 693.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -165,7 +165,7 @@
 					"outlettype" : [ "list", "float", "float", "float", "float", "list", "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 256.5, 616.5, 285.0, 55.0 ],
-					"setfilter" : [ 0, 4, 1, 0, 0, 134.0, 3.4, 0.9, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+					"setfilter" : [ 0, 2, 1, 0, 0, 100.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -318,20 +318,6 @@
 					"patching_rect" : [ 251.0, 850.0, 94.0, 22.0 ],
 					"style" : "",
 					"text" : "average~ 5 rms"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"format" : 6,
-					"id" : "obj-5",
-					"maxclass" : "flonum",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 458.0, 1274.0, 50.0, 22.0 ],
-					"style" : ""
 				}
 
 			}
@@ -1085,7 +1071,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 358.0, 1316.0, 168.0, 21.0 ],
+					"patching_rect" : [ 335.0, 1318.0, 168.0, 21.0 ],
 					"style" : "",
 					"text" : "j.return envelope @type decimal"
 				}
@@ -1251,9 +1237,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 358.0, 1279.0, 76.0, 22.0 ],
+					"patching_rect" : [ 335.0, 1281.0, 66.0, 22.0 ],
 					"style" : "",
-					"text" : "snapshot~ 5"
+					"text" : "snapshot~"
 				}
 
 			}
@@ -2132,7 +2118,8 @@
 								}
 
 							}
- ]
+ ],
+						"autosave" : 0
 					}
 ,
 					"patching_rect" : [ 251.0, 1234.0, 138.0, 22.0 ],
@@ -2195,7 +2182,7 @@
 					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-1", 1 ]
+					"source" : [ "obj-1", 0 ]
 				}
 
 			}
@@ -2575,15 +2562,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-46", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-58", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-5", 0 ]
 				}
 
 			}
