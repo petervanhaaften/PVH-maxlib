@@ -1765,7 +1765,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 285.5, 540.0, 150.0, 20.0 ],
+									"patching_rect" : [ 285.5, 511.0, 150.0, 20.0 ],
 									"style" : "",
 									"text" : "add j.nav.clip~ clone"
 								}
