@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 63.0, 104.0, 640.0, 480.0 ],
+		"rect" : [ 328.0, 409.0, 640.0, 401.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -124,7 +124,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 238.0, 194.0, 65.0, 22.0 ],
+					"patching_rect" : [ 238.0, 194.0, 58.0, 22.0 ],
 					"style" : "",
 					"text" : "metro 50"
 				}
@@ -201,9 +201,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-2::obj-145" : [ "live.text[25]", "live.text", 0 ],
+			"obj-2::obj-183" : [ "live.numbox[9]", "live.numbox", 0 ],
 			"obj-2::obj-144" : [ "live.text[26]", "live.text", 0 ],
-			"obj-2::obj-183" : [ "live.numbox[9]", "live.numbox", 0 ]
+			"obj-2::obj-145" : [ "live.text[25]", "live.text", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

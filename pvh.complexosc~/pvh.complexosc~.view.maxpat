@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 235.0, 79.0, 799.0, 749.0 ],
+		"rect" : [ 117.0, 360.0, 150.0, 350.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,65 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"annotation" : "Noise lowpass fliter'",
+					"fontface" : 0,
+					"fontname" : "Verdana",
+					"id" : "obj-9",
+					"maxclass" : "live.dial",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 560.0, 465.0, 52.0, 49.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 91.0, 118.5, 52.0, 49.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "live.dial[4]",
+							"parameter_shortname" : "noise_filt",
+							"parameter_type" : 0,
+							"parameter_mmax" : 20000.0,
+							"parameter_unitstyle" : 3
+						}
+
+					}
+,
+					"varname" : "live.dial[3]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-22",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 643.0, 478.5, 98.0, 22.0 ],
+					"style" : "",
+					"text" : "j.remote noisefilt",
+					"varname" : "mode[10]"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-6",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 773.0, 295.0, 50.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-73",
 					"maxclass" : "message",
@@ -578,7 +637,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 560.0, 408.5, 52.0, 49.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 91.0, 120.5, 52.0, 49.0 ],
+					"presentation_rect" : [ 41.5, 118.5, 52.0, 49.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.dial[3]",
@@ -637,7 +696,7 @@
 							"parameter_longname" : "live.dial[2]",
 							"parameter_shortname" : "index",
 							"parameter_type" : 0,
-							"parameter_mmax" : 1.0,
+							"parameter_mmax" : 10.0,
 							"parameter_unitstyle" : 1
 						}
 
@@ -794,7 +853,6 @@
 , 			{
 				"box" : 				{
 					"annotation" : "Modulation frequency ratio relative to carrier",
-					"appearance" : 2,
 					"fontname" : "Verdana",
 					"id" : "obj-43",
 					"maxclass" : "live.numbox",
@@ -804,7 +862,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 560.0, 339.5, 78.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.333344, 150.833328, 78.0, 16.0 ],
+					"presentation_rect" : [ 8.333344, 151.5, 27.5, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.numbox[32]",
@@ -1021,9 +1079,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 497.5, 339.5, 59.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 4.333344, 135.333328, 59.0, 19.0 ],
+					"presentation_rect" : [ 8.333344, 133.5, 33.0, 19.0 ],
 					"style" : "",
-					"text" : "mod ratio"
+					"text" : "ratio"
 				}
 
 			}
@@ -1183,7 +1241,7 @@
 					"outlettype" : [ "" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 350.0 ],
-					"text" : "/no_..ess"
+					"text" : "/test"
 				}
 
 			}
@@ -1257,6 +1315,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-22", 0 ]
 				}
 
 			}
@@ -1600,47 +1667,16 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-30" : [ "live.toggle[2]", "live.toggle", 0 ],
-			"obj-31" : [ "live.toggle[1]", "live.toggle", 0 ],
-			"obj-45" : [ "live.numbox[29]", "live.numbox", 0 ],
-			"obj-43" : [ "live.numbox[32]", "live.numbox", 0 ],
-			"obj-40" : [ "live.numbox[34]", "live.numbox", 0 ],
-			"obj-10" : [ "live.dial", "morph", 0 ],
-			"obj-36" : [ "live.numbox[30]", "live.numbox", 0 ],
-			"obj-12" : [ "live.dial[2]", "index", 0 ],
-			"obj-48" : [ "live.toggle", "live.toggle", 0 ],
-			"obj-51" : [ "live.toggle[3]", "live.toggle", 0 ],
-			"obj-16" : [ "live.dial[3]", "noise", 0 ]
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "j.ui.mxo",
-				"type" : "iLaX"
-			}
 , 			{
-				"name" : "j.view.mxo",
-				"type" : "iLaX"
+				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-9", 0 ]
+				}
+
 			}
-, 			{
-				"name" : "j.receive~.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.receive.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.send.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

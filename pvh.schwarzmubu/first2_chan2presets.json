@@ -1,0 +1,60 @@
+{
+	"pattrstorage" : 	{
+		"name" : "storage",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"live.gain~[1]" : [ 0.015747 ],
+					"live.text" : [ 0.0 ],
+					"normalization" : [ "min/max" ],
+					"synthesize" : [ "all" ],
+					"transpose" : [ 0 ],
+					"trigger-mode" : [ "fence" ],
+					"trigger-on-click" : [ 0 ],
+					"trigger-period" : [ 133.0 ],
+					"weights-multislider" : [ 0.0, 1.0, 0.653846, 0.173077, 0.0, 0.307692, 0.230769, 0.596154, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+					"duration" : [ 0.0, 1.0 ],
+					"durationvar" : [ 0.0, 0.0 ],
+					"attack" : [ 10.0, 0.0 ],
+					"release" : [ 5.0, 0.0 ],
+					"offset" : [ -5.0 ],
+					"positionvar" : [ 0.0 ],
+					"level" : [ 0.0 ],
+					"levelvar" : [ 0.0 ],
+					"resampling" : [ 0.0 ],
+					"resamplingvar" : [ 0.0 ],
+					"outputgains" : [ 1.0, 1.0 ],
+					"corpus::segmentation" : [ "onseg" ],
+					"corpus::onseg-threshold" : [ 5.0 ],
+					"corpus::onseg-offthresh" : [ -100.0 ],
+					"corpus::onseg-durthresh" : [ 0.0 ],
+					"corpus::onseg-mininter" : [ 50.0 ],
+					"corpus::onseg-filtersize" : [ 5 ],
+					"corpus::onseg-odfmode" : [ 0 ],
+					"corpus::onseg-startisonset" : [ 1 ],
+					"corpus::chop-size" : [ 250.0 ],
+					"corpus::chop-offset" : [ 0.0 ],
+					"corpus::onseg-maxsize" : [ 10000.0 ],
+					"target::segmentation" : [ "onseg" ],
+					"target::onseg-threshold" : [ 3.0 ],
+					"target::onseg-offthresh" : [ -100.0 ],
+					"target::onseg-durthresh" : [ 0.0 ],
+					"target::onseg-mininter" : [ 50.0 ],
+					"target::onseg-filtersize" : [ 5 ],
+					"target::onseg-odfmode" : [ 2 ],
+					"target::onseg-startisonset" : [ 0 ],
+					"target::chop-size" : [ 242.0 ],
+					"target::chop-offset" : [ 0.0 ],
+					"target::onseg-maxsize" : [ 0.0 ],
+					"select-by-key::select-keys" : [ 0, 0, 0, 0, 1, 0 ],
+					"select-by-key::voices" : [ "voices:" ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
