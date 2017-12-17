@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 455.0, 90.0, 566.0, 656.0 ],
+		"rect" : [ 455.0, 90.0, 780.0, 615.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -259,7 +259,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 524.0, 133.0, 640.0, 480.0 ],
+						"rect" : [ 812.0, 232.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -569,22 +569,22 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-12::obj-11::obj-16" : [ "shape[19]", "shape", 0 ],
-			"obj-12::obj-9::obj-16" : [ "shape[15]", "shape", 0 ],
-			"obj-12::obj-10::obj-16" : [ "shape[13]", "shape", 0 ],
-			"obj-12::obj-11::obj-6" : [ "decay[8]", "decay", 0 ],
-			"obj-12::obj-8::obj-4" : [ "attack[7]", "attack", 0 ],
-			"obj-12::obj-9::obj-6" : [ "decay[6]", "decay", 0 ],
-			"obj-12::obj-8::obj-6" : [ "decay[7]", "decay", 0 ],
-			"obj-12::obj-9::obj-1" : [ "shape[16]", "shape", 0 ],
-			"obj-12::obj-10::obj-6" : [ "decay[5]", "decay", 0 ],
-			"obj-12::obj-11::obj-4" : [ "attack[8]", "attack", 0 ],
 			"obj-12::obj-8::obj-16" : [ "shape[17]", "shape", 0 ],
-			"obj-12::obj-10::obj-4" : [ "attack[5]", "attack", 0 ],
-			"obj-12::obj-11::obj-1" : [ "shape[20]", "shape", 0 ],
+			"obj-12::obj-9::obj-1" : [ "shape[16]", "shape", 0 ],
+			"obj-12::obj-10::obj-1" : [ "shape[14]", "shape", 0 ],
+			"obj-12::obj-11::obj-4" : [ "attack[8]", "attack", 0 ],
 			"obj-12::obj-8::obj-1" : [ "shape[18]", "shape", 0 ],
-			"obj-12::obj-9::obj-4" : [ "attack[6]", "attack", 0 ],
-			"obj-12::obj-10::obj-1" : [ "shape[14]", "shape", 0 ]
+			"obj-12::obj-10::obj-4" : [ "attack[5]", "attack", 0 ],
+			"obj-12::obj-11::obj-16" : [ "shape[19]", "shape", 0 ],
+			"obj-12::obj-8::obj-6" : [ "decay[7]", "decay", 0 ],
+			"obj-12::obj-9::obj-16" : [ "shape[15]", "shape", 0 ],
+			"obj-12::obj-10::obj-6" : [ "decay[5]", "decay", 0 ],
+			"obj-12::obj-11::obj-6" : [ "decay[8]", "decay", 0 ],
+			"obj-12::obj-9::obj-6" : [ "decay[6]", "decay", 0 ],
+			"obj-12::obj-10::obj-16" : [ "shape[13]", "shape", 0 ],
+			"obj-12::obj-11::obj-1" : [ "shape[20]", "shape", 0 ],
+			"obj-12::obj-8::obj-4" : [ "attack[7]", "attack", 0 ],
+			"obj-12::obj-9::obj-4" : [ "attack[6]", "attack", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
