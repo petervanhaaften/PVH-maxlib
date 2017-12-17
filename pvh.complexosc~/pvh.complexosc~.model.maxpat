@@ -342,7 +342,7 @@
 					"outlettype" : [ "signal", "", "" ],
 					"patching_rect" : [ 6.0, 293.0, 165.0, 22.0 ],
 					"style" : "",
-					"text" : "poly~ polycomplexosc 1 up 8"
+					"text" : "poly~ polycomplexosc 1 up 4"
 				}
 
 			}
@@ -569,7 +569,7 @@
 					"destination" : [ "obj-3", 8 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 225.5, 286.0, 152.0, 286.0, 145.277778, 292.0 ],
+					"midpoints" : [ 225.5, 286.0, 152.0, 286.0, 145.277778, 286.0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 

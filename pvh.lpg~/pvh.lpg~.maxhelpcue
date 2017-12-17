@@ -1,0 +1,28 @@
+- cue "test"
+- description "something about this cue"
+# ###########################################
+# 
+/functiontest/attack 0.000000
+/functiontest/attack_shape 0.000000
+/functiontest/decay 67.487379
+/functiontest/decay_shape -0.488189
+# 
+/lpgtest/lpmode 1
+/lpgtest/nonlinmode 0
+/lpgtest/offset 0.000000
+/lpgtest/resonance 1.431496
+/lpgtest/vcaness 0.496063
+# 
+/testfunction/attack 19.996260
+/testfunction/attack_shape -0.299213
+/testfunction/decay 812.226034
+/testfunction/decay_shape 0.251969
+# 
+/testlpg/lpmode 1
+/testlpg/nonlinmode 0.000000
+/testlpg/offset 0.000000
+/testlpg/resonance 0.000000
+/testlpg/vcaness 1.000000
+# 
+# ###########################################
+
