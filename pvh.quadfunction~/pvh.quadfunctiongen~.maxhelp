@@ -176,9 +176,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 112.5, 92.0, 180.0, 127.0 ],
+					"patching_rect" : [ 112.5, 92.0, 184.0, 127.0 ],
 					"style" : "",
-					"text" : "a QUAD attack-decay function generator, with variable shape for both parameters.\n\nbuilt using curve~\n\nit is exactly 4 instances of pvh.functiongen~\n\n"
+					"text" : "a QUAD attack-decay function generator, with variable shape slope shape for each parameter.\n\nbuilt using curve~.\n\nit is exactly 4 instances of pvh.functiongen~.\n\n"
 				}
 
 			}

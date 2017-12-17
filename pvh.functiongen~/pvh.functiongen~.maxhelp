@@ -38,6 +38,20 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"format" : 6,
+					"id" : "obj-10",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 371.0, 148.0, 50.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-6",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -490,6 +504,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-16", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -563,46 +586,46 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-4::obj-1::obj-12::obj-42" : [ "live.text[1]", "live.text", 0 ],
-			"obj-4::obj-1::obj-110" : [ "live.numbox[1]", "live.numbox[1]", 0 ],
-			"obj-2::obj-12" : [ "live.dial[2]", "index", 0 ],
-			"obj-4::obj-1::obj-12::obj-6" : [ "live.text", "live.text", 0 ],
-			"obj-4::obj-1::obj-103" : [ "live.text[5]", "live.text", 0 ],
-			"obj-2::obj-10" : [ "live.dial", "morph", 0 ],
-			"obj-4::obj-1::obj-106" : [ "live.dial[6]", "Release", 0 ],
-			"obj-4::obj-1::obj-12::obj-27" : [ "Threshold", "Threshold", 0 ],
-			"obj-2::obj-36" : [ "live.numbox[30]", "live.numbox", 0 ],
-			"obj-4::obj-1::obj-99" : [ "live.menu[2]", "live.menu[2]", 0 ],
-			"obj-4::obj-1::obj-98" : [ "live.menu[1]", "live.menu", 0 ],
-			"obj-2::obj-51" : [ "live.toggle[3]", "live.toggle", 0 ],
-			"obj-4::obj-1::obj-111" : [ "live.numbox[2]", "live.numbox[2]", 0 ],
-			"obj-4::obj-1::obj-102" : [ "live.text[3]", "live.text", 0 ],
-			"obj-4::obj-1::obj-97" : [ "live.numbox", "CPU", 0 ],
-			"obj-4::obj-1::obj-12::obj-12" : [ "Lookahead", "Lookahead", 0 ],
-			"obj-4::obj-1::obj-104" : [ "live.dial[1]", "Depth", 0 ],
+			"obj-4::obj-1::obj-12::obj-5" : [ "Preamp", "Preamp", 0 ],
+			"obj-4::obj-1::obj-17" : [ "Master Gain[1]", "Master Gain", 0 ],
 			"obj-5::obj-4" : [ "attack", "attack", 0 ],
-			"obj-2::obj-9" : [ "live.dial[4]", "noise_filt", 0 ],
-			"obj-5::obj-16" : [ "shape[2]", "shape", 0 ],
-			"obj-2::obj-16" : [ "live.dial[3]", "noise", 0 ],
-			"obj-4::obj-1::obj-12::obj-30" : [ "live.menu", "live.menu", 0 ],
-			"obj-4::obj-1::obj-100" : [ "live.text[7]", "live.text[1]", 0 ],
-			"obj-4::obj-1::obj-90" : [ "live.text[4]", "live.text[1]", 0 ],
-			"obj-4::obj-1::obj-107" : [ "live.dial[5]", "Preamp", 0 ],
+			"obj-2::obj-12" : [ "live.dial[2]", "index", 0 ],
 			"obj-2::obj-45" : [ "live.numbox[29]", "live.numbox", 0 ],
+			"obj-4::obj-1::obj-98" : [ "live.menu[1]", "live.menu", 0 ],
+			"obj-2::obj-48" : [ "live.toggle", "live.toggle", 0 ],
+			"obj-4::obj-1::obj-12::obj-45" : [ "live.text[2]", "live.text", 0 ],
+			"obj-4::obj-1::obj-12::obj-30" : [ "live.menu", "live.menu", 0 ],
+			"obj-4::obj-1::obj-111" : [ "live.numbox[2]", "live.numbox[2]", 0 ],
+			"obj-5::obj-1" : [ "shape", "shape", 0 ],
+			"obj-4::obj-1::obj-12::obj-6" : [ "live.text", "live.text", 0 ],
+			"obj-4::obj-1::obj-106" : [ "live.dial[6]", "Release", 0 ],
+			"obj-4::obj-1::obj-12::obj-42" : [ "live.text[1]", "live.text", 0 ],
+			"obj-2::obj-30" : [ "live.toggle[2]", "live.toggle", 0 ],
+			"obj-4::obj-1::obj-90" : [ "live.text[4]", "live.text[1]", 0 ],
+			"obj-2::obj-43" : [ "live.numbox[32]", "live.numbox", 0 ],
+			"obj-4::obj-1::obj-104" : [ "live.dial[1]", "Depth", 0 ],
+			"obj-5::obj-16" : [ "shape[2]", "shape", 0 ],
+			"obj-2::obj-9" : [ "live.dial[4]", "noise_filt", 0 ],
+			"obj-2::obj-10" : [ "live.dial", "morph", 0 ],
+			"obj-2::obj-16" : [ "live.dial[3]", "noise", 0 ],
+			"obj-4::obj-1::obj-103" : [ "live.text[5]", "live.text", 0 ],
+			"obj-2::obj-31" : [ "live.toggle[1]", "live.toggle", 0 ],
+			"obj-4::obj-1::obj-108" : [ "live.text[6]", "live.text[4]", 0 ],
+			"obj-4::obj-1::obj-12::obj-27" : [ "Threshold", "Threshold", 0 ],
 			"obj-4::obj-1::obj-12::obj-15" : [ "Postamp", "Postamp", 0 ],
 			"obj-4::obj-1::obj-12::obj-13" : [ "Release", "Release", 0 ],
-			"obj-2::obj-31" : [ "live.toggle[1]", "live.toggle", 0 ],
-			"obj-4::obj-1::obj-12::obj-45" : [ "live.text[2]", "live.text", 0 ],
 			"obj-5::obj-6" : [ "deay", "decay", 0 ],
-			"obj-2::obj-43" : [ "live.numbox[32]", "live.numbox", 0 ],
+			"obj-2::obj-51" : [ "live.toggle[3]", "live.toggle", 0 ],
+			"obj-4::obj-1::obj-12::obj-12" : [ "Lookahead", "Lookahead", 0 ],
+			"obj-4::obj-1::obj-110" : [ "live.numbox[1]", "live.numbox[1]", 0 ],
 			"obj-2::obj-40" : [ "live.numbox[34]", "live.numbox", 0 ],
-			"obj-2::obj-30" : [ "live.toggle[2]", "live.toggle", 0 ],
-			"obj-4::obj-1::obj-12::obj-5" : [ "Preamp", "Preamp", 0 ],
-			"obj-2::obj-48" : [ "live.toggle", "live.toggle", 0 ],
-			"obj-4::obj-1::obj-17" : [ "Master Gain[1]", "Master Gain", 0 ],
-			"obj-4::obj-1::obj-108" : [ "live.text[6]", "live.text[4]", 0 ],
+			"obj-4::obj-1::obj-107" : [ "live.dial[5]", "Preamp", 0 ],
+			"obj-4::obj-1::obj-102" : [ "live.text[3]", "live.text", 0 ],
+			"obj-4::obj-1::obj-97" : [ "live.numbox", "CPU", 0 ],
+			"obj-2::obj-36" : [ "live.numbox[30]", "live.numbox", 0 ],
 			"obj-4::obj-1::obj-82" : [ "pan", "Pan", 0 ],
-			"obj-5::obj-1" : [ "shape", "shape", 0 ]
+			"obj-4::obj-1::obj-100" : [ "live.text[7]", "live.text[1]", 0 ],
+			"obj-4::obj-1::obj-99" : [ "live.menu[2]", "live.menu[2]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
