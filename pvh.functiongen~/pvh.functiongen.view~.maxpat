@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 91.0, 79.0, 1152.0, 783.0 ],
+		"rect" : [ 191.0, 235.0, 150.0, 70.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -90,6 +90,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "none",
 					"id" : "obj-16",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -117,6 +118,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "none",
 					"id" : "obj-1",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -144,23 +146,24 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "none",
 					"id" : "obj-6",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 374.0, 325.0, 44.0, 47.0 ],
+					"patching_rect" : [ 374.0, 319.0, 44.0, 47.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 106.0, 20.0, 44.0, 47.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "deay",
+							"parameter_longname" : "decay",
 							"parameter_shortname" : "decay",
 							"parameter_type" : 0,
-							"parameter_mmin" : 20.0,
-							"parameter_mmax" : 8000.0,
-							"parameter_unitstyle" : 0
+							"parameter_mmax" : 10000.0,
+							"parameter_unitstyle" : 0,
+							"parameter_exponent" : 3.0
 						}
 
 					}
@@ -171,6 +174,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "none",
 					"id" : "obj-4",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -185,8 +189,9 @@
 							"parameter_longname" : "attack",
 							"parameter_shortname" : "attack",
 							"parameter_type" : 0,
-							"parameter_mmax" : 3000.0,
-							"parameter_unitstyle" : 0
+							"parameter_mmax" : 10000.0,
+							"parameter_unitstyle" : 0,
+							"parameter_exponent" : 3.0
 						}
 
 					}
@@ -261,7 +266,7 @@
 					"patching_rect" : [ 0.0, 0.0, 300.0, 105.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 70.0 ],
-					"text" : "/no_model_address"
+					"text" : "/function1"
 				}
 
 			}
@@ -356,32 +361,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-16" : [ "shape[2]", "shape", 0 ],
-			"obj-6" : [ "deay", "decay", 0 ],
-			"obj-4" : [ "attack", "attack", 0 ],
-			"obj-1" : [ "shape", "shape", 0 ]
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "j.ui.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.view.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.send.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.remote.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

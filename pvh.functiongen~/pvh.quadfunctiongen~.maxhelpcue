@@ -1,0 +1,27 @@
+- cue "test"
+- description "something about this cue"
+# ###########################################
+# 
+# 
+/function1/function1-functiongen1/attack 610.237427
+/function1/function1-functiongen1/attack_shape 0.000000
+/function1/function1-functiongen1/decay 0.000000
+/function1/function1-functiongen1/decay_shape 0.000000
+# 
+/function1/function1-functiongen2/attack 0.000000
+/function1/function1-functiongen2/attack_shape 0.000000
+/function1/function1-functiongen2/decay 0.000000
+/function1/function1-functiongen2/decay_shape 0.000000
+# 
+/function1/function1-functiongen3/attack 0.000000
+/function1/function1-functiongen3/attack_shape 0.000000
+/function1/function1-functiongen3/decay 0.000000
+/function1/function1-functiongen3/decay_shape 0.000000
+# 
+/function1/function1-functiongen4/attack 0.000000
+/function1/function1-functiongen4/attack_shape 0.000000
+/function1/function1-functiongen4/decay 0.000000
+/function1/function1-functiongen4/decay_shape 0.000000
+# 
+# ###########################################
+
