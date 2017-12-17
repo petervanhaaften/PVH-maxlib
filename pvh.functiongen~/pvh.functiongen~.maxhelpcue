@@ -1,0 +1,50 @@
+- cue "test"
+- description "something about this cue"
+# ###########################################
+# 
+# 
+/output~/limiter/dcblocker/active 0
+/output~/limiter/active 1
+/output~/limiter/lookahead 64
+/output~/limiter/mode exponential
+/output~/limiter/postamp 0.000000
+/output~/limiter/preamp 6.000000
+/output~/limiter/release 300.000000
+/output~/limiter/threshold -1.000000
+# 
+/output~/record/file/type aiff
+/output~/record/samptype int24
+/output~/audio/gain 0.000000
+/output~/audio/mute 0
+# 
+/output~/balance/mode FastMode
+/output~/balance/position 0.000000
+/output~/balance/shape EqualPower
+# 
+/output~/saturation/active 1
+/output~/saturation/depth 10.000000
+/output~/saturation/mode 0.000000
+/output~/saturation/preamp 0.000000
+/output~/ch.1 1
+/output~/ch.2 2
+# 
+/osc1/audio/gain 0.000000
+/osc1/audio/mute 0
+/osc1/modratioman 0
+/osc1/modfreq 0.000000
+/osc1/modratio 0.000000
+/osc1/carrierfreq 40.000000
+/osc1/carriersinsaw 0.181102
+/osc1/modindex 4.645669
+/osc1/modnoise 0.000000
+/osc1/noisefilt 0.000000
+/osc1/squareorsaw 1
+/osc1/wavefolder 0.000000
+# 
+/function1/attack 5.000000
+/function1/attack_shape 0.000000
+/function1/decay 208.503937
+/function1/decay_shape -0.472441
+# 
+# ###########################################
+
