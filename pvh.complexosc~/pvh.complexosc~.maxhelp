@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 1,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 63.0, 104.0, 1065.0, 561.0 ],
+		"rect" : [ 503.0, 79.0, 1065.0, 393.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -342,7 +342,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 35.0, 254.0, 22.0, 140.0 ],
+					"patching_rect" : [ 37.0, 175.0, 22.0, 140.0 ],
 					"style" : ""
 				}
 
@@ -353,7 +353,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 35.0, 405.0, 45.0, 45.0 ],
+					"patching_rect" : [ 37.0, 326.0, 45.0, 45.0 ],
 					"style" : ""
 				}
 
@@ -388,7 +388,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "" ],
-					"patching_rect" : [ 35.0, 199.0, 162.0, 22.0 ],
+					"patching_rect" : [ 37.0, 120.0, 162.0, 22.0 ],
 					"style" : "",
 					"text" : "pvh.complexosc~.model test"
 				}
@@ -398,8 +398,6 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -407,8 +405,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
+					"order" : 0,
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -416,48 +413,52 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-5", 0 ]
 				}
 
 			}
  ],
 		"parameters" : 		{
-			"obj-2::obj-45" : [ "live.numbox[29]", "live.numbox", 0 ],
-			"obj-2::obj-31" : [ "live.toggle[1]", "live.toggle", 0 ],
-			"obj-2::obj-30" : [ "live.toggle[2]", "live.toggle", 0 ],
-			"obj-2::obj-16" : [ "live.dial[3]", "noise", 0 ],
-			"obj-2::obj-40" : [ "live.numbox[34]", "live.numbox", 0 ],
 			"obj-2::obj-10" : [ "live.dial", "morph", 0 ],
-			"obj-2::obj-51" : [ "live.toggle[3]", "live.toggle", 0 ],
-			"obj-2::obj-48" : [ "live.toggle", "live.toggle", 0 ],
+			"obj-2::obj-45" : [ "live.numbox[29]", "live.numbox", 0 ],
+			"obj-2::obj-30" : [ "live.toggle[2]", "live.toggle", 0 ],
 			"obj-2::obj-12" : [ "live.dial[2]", "index", 0 ],
+			"obj-2::obj-48" : [ "live.toggle", "live.toggle", 0 ],
 			"obj-2::obj-36" : [ "live.numbox[30]", "live.numbox", 0 ],
-			"obj-2::obj-43" : [ "live.numbox[32]", "live.numbox", 0 ]
+			"obj-2::obj-31" : [ "live.toggle[1]", "live.toggle", 0 ],
+			"obj-2::obj-51" : [ "live.toggle[3]", "live.toggle", 0 ],
+			"obj-2::obj-16" : [ "live.dial[3]", "noise", 0 ],
+			"obj-2::obj-9" : [ "live.dial[4]", "noise_filt", 0 ],
+			"obj-2::obj-43" : [ "live.numbox[32]", "live.numbox", 0 ],
+			"obj-2::obj-40" : [ "live.numbox[34]", "live.numbox", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "pvh.complexosc~.model.maxpat",
-				"bootpath" : "~/code/TML-depo/TML-code/PVH-maxlib/pvh.complexosc~",
+				"bootpath" : "~/code/PVH-maxlib/pvh.complexosc~",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "polycomplexosc.maxpat",
-				"bootpath" : "~/code/TML-depo/TML-code/PVH-maxlib/pvh.complexosc~/necessaryfiles",
+				"bootpath" : "~/code/PVH-maxlib/pvh.complexosc~/include",
+				"patcherrelativepath" : "./include",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "complexosc.gendsp",
-				"bootpath" : "~/code/TML-depo/TML-code/PVH-maxlib/pvh.complexosc~/necessaryfiles",
+				"bootpath" : "~/code/PVH-maxlib/pvh.complexosc~/include",
+				"patcherrelativepath" : "./include",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pvh.complexosc~.view.maxpat",
-				"bootpath" : "~/code/TML-depo/TML-code/PVH-maxlib/pvh.complexosc~",
+				"bootpath" : "~/code/PVH-maxlib/pvh.complexosc~",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
