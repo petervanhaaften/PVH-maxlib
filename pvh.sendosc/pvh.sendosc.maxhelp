@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 749.0, 45.0, 573.0, 632.0 ],
+		"rect" : [ 772.0, 45.0, 625.0, 660.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,81 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-19",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 3.0, 184.0, 114.0, 33.0 ],
+					"style" : "",
+					"text" : "OSC output IP &\non/off switch      -->"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 407.5, 197.0, 150.0, 20.0 ],
+					"style" : "",
+					"text" : "<--- OSC output port"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 407.5, 219.0, 32.0, 20.0 ],
+					"style" : "",
+					"text" : "<----"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-13",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 438.0, 219.0, 89.0, 33.0 ],
+					"style" : "",
+					"text" : "select OSC output address"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 79.0, 219.0, 150.0, 20.0 ],
+					"style" : "",
+					"text" : "--->"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"linecount" : 8,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 3.0, 219.0, 71.0, 114.0 ],
+					"style" : "",
+					"text" : "select paramater to link to OSC output address (utilizing j.nav.oscroute)."
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"args" : [ "cues" ],
 					"bgmode" : 0,
 					"border" : 0,
@@ -52,7 +127,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 25.5, 450.0, 300.0, 175.0 ],
+					"patching_rect" : [ 108.5, 449.0, 300.0, 175.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 175.0 ],
 					"viewvisibility" : 1
 				}
@@ -64,7 +139,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 422.0, 348.0, 93.0, 22.0 ],
+					"patching_rect" : [ 436.0, 347.0, 93.0, 22.0 ],
 					"style" : "",
 					"text" : "print @popup 2"
 				}
@@ -77,7 +152,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 422.0, 304.0, 106.0, 22.0 ],
+					"patching_rect" : [ 436.0, 303.0, 106.0, 22.0 ],
 					"style" : "",
 					"text" : "udpreceive 10001"
 				}
@@ -90,21 +165,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 25.5, 135.0, 137.0, 22.0 ],
+					"patching_rect" : [ 108.5, 126.0, 137.0, 22.0 ],
 					"style" : "",
 					"text" : "pvh.sendosc.model one"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-2",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 25.5, 423.0, 34.0, 22.0 ],
-					"style" : "",
-					"text" : "print"
 				}
 
 			}
@@ -125,7 +188,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 25.5, 173.0, 300.0, 245.0 ],
+					"patching_rect" : [ 108.5, 172.0, 300.0, 245.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 245.0 ],
 					"viewvisibility" : 1
 				}
@@ -147,7 +210,7 @@
 					"numoutlets" : 3,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "" ],
-					"patching_rect" : [ 25.5, 57.0, 300.0, 70.0 ],
+					"patching_rect" : [ 108.5, 48.0, 300.0, 70.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
 					"viewvisibility" : 1
 				}
@@ -155,15 +218,6 @@
 			}
  ],
 		"lines" : [ 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
 					"disabled" : 0,
@@ -174,30 +228,30 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-3::obj-8::obj-182" : [ "live.text[3]", "live.text[4]", 0 ],
-			"obj-3::obj-2::obj-10::obj-10::obj-145" : [ "live.menu[8]", "live.menu", 0 ],
-			"obj-3::obj-3::obj-10::obj-10::obj-145" : [ "live.menu[7]", "live.menu", 0 ],
-			"obj-3::obj-6::obj-182" : [ "live.text[11]", "live.text[4]", 0 ],
-			"obj-3::obj-12::obj-182" : [ "live.text[1]", "live.text[4]", 0 ],
-			"obj-3::obj-9::obj-10::obj-196" : [ "live.text[6]", "live.text", 0 ],
 			"obj-3::obj-9::obj-182" : [ "live.text[5]", "live.text[4]", 0 ],
-			"obj-3::obj-2::obj-10::obj-196" : [ "live.text[16]", "live.text", 0 ],
-			"obj-3::obj-6::obj-10::obj-10::obj-145" : [ "live.menu[6]", "live.menu", 0 ],
-			"obj-3::obj-5::obj-182" : [ "live.text[7]", "live.text[4]", 0 ],
-			"obj-3::obj-12::obj-10::obj-10::obj-145" : [ "live.menu[1]", "live.menu", 0 ],
-			"obj-3::obj-3::obj-10::obj-196" : [ "live.text[14]", "live.text", 0 ],
-			"obj-3::obj-5::obj-10::obj-10::obj-145" : [ "live.menu[5]", "live.menu", 0 ],
-			"obj-3::obj-8::obj-10::obj-10::obj-145" : [ "live.menu[2]", "live.menu", 0 ],
-			"obj-3::obj-8::obj-10::obj-196" : [ "live.text[4]", "live.text", 0 ],
-			"obj-3::obj-11::obj-182" : [ "live.text[8]", "live.text[4]", 0 ],
 			"obj-3::obj-2::obj-182" : [ "live.text[15]", "live.text[4]", 0 ],
 			"obj-3::obj-6::obj-10::obj-196" : [ "live.text[12]", "live.text", 0 ],
 			"obj-3::obj-9::obj-10::obj-10::obj-145" : [ "live.menu[3]", "live.menu", 0 ],
-			"obj-3::obj-11::obj-10::obj-196" : [ "live.text[9]", "live.text", 0 ],
-			"obj-3::obj-12::obj-10::obj-196" : [ "live.text[2]", "live.text", 0 ],
-			"obj-3::obj-3::obj-182" : [ "live.text[13]", "live.text[4]", 0 ],
+			"obj-3::obj-12::obj-10::obj-10::obj-145" : [ "live.menu[1]", "live.menu", 0 ],
 			"obj-3::obj-11::obj-10::obj-10::obj-145" : [ "live.menu[4]", "live.menu", 0 ],
-			"obj-3::obj-5::obj-10::obj-196" : [ "live.text[10]", "live.text", 0 ]
+			"obj-3::obj-12::obj-182" : [ "live.text[1]", "live.text[4]", 0 ],
+			"obj-3::obj-3::obj-182" : [ "live.text[13]", "live.text[4]", 0 ],
+			"obj-3::obj-5::obj-10::obj-196" : [ "live.text[10]", "live.text", 0 ],
+			"obj-3::obj-8::obj-10::obj-10::obj-145" : [ "live.menu[2]", "live.menu", 0 ],
+			"obj-3::obj-2::obj-10::obj-10::obj-145" : [ "live.menu[8]", "live.menu", 0 ],
+			"obj-3::obj-8::obj-10::obj-196" : [ "live.text[4]", "live.text", 0 ],
+			"obj-3::obj-3::obj-10::obj-10::obj-145" : [ "live.menu[7]", "live.menu", 0 ],
+			"obj-3::obj-11::obj-182" : [ "live.text[8]", "live.text[4]", 0 ],
+			"obj-3::obj-6::obj-182" : [ "live.text[11]", "live.text[4]", 0 ],
+			"obj-3::obj-9::obj-10::obj-196" : [ "live.text[6]", "live.text", 0 ],
+			"obj-3::obj-12::obj-10::obj-196" : [ "live.text[2]", "live.text", 0 ],
+			"obj-3::obj-2::obj-10::obj-196" : [ "live.text[16]", "live.text", 0 ],
+			"obj-3::obj-6::obj-10::obj-10::obj-145" : [ "live.menu[6]", "live.menu", 0 ],
+			"obj-3::obj-5::obj-182" : [ "live.text[7]", "live.text[4]", 0 ],
+			"obj-3::obj-8::obj-182" : [ "live.text[3]", "live.text[4]", 0 ],
+			"obj-3::obj-3::obj-10::obj-196" : [ "live.text[14]", "live.text", 0 ],
+			"obj-3::obj-11::obj-10::obj-196" : [ "live.text[9]", "live.text", 0 ],
+			"obj-3::obj-5::obj-10::obj-10::obj-145" : [ "live.menu[5]", "live.menu", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
