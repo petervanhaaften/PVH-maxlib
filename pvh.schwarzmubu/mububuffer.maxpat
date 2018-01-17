@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 123.0, 200.0, 1283.0, 392.0 ],
+		"rect" : [ 111.0, 193.0, 1283.0, 392.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,12 +38,37 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-43",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 375.0, 187.0, 122.0, 22.0 ],
+					"style" : "",
+					"text" : "print loading_corpus:"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-30",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 341.0, 58.0, 47.0, 22.0 ],
+					"style" : "",
+					"text" : "readall"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-42",
 					"maxclass" : "button",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 781.0, 52.0, 24.0, 24.0 ],
+					"patching_rect" : [ 781.0, 78.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -68,7 +93,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 648.0, 153.0, 49.0, 22.0 ],
+					"patching_rect" : [ 648.0, 179.0, 49.0, 22.0 ],
 					"style" : "",
 					"text" : "clearall"
 				}
@@ -367,7 +392,7 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 529.0, 129.0, 117.0, 22.0 ],
+					"patching_rect" : [ 529.0, 155.0, 117.0, 22.0 ],
 					"style" : "",
 					"text" : "sprintf %s %s%s%s"
 				}
@@ -380,7 +405,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 529.0, 54.0, 57.0, 22.0 ],
+					"patching_rect" : [ 529.0, 80.0, 57.0, 22.0 ],
 					"style" : "",
 					"text" : "zl.reg #1"
 				}
@@ -395,7 +420,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 529.0, 85.799988, 270.0, 42.0 ],
+					"patching_rect" : [ 529.0, 111.799988, 270.0, 42.0 ],
 					"style" : "",
 					"text" : "readall /Users/pvh/pvhsounds/spring_sys/spring_normalizations/ $1 _chanX1_normalization.mubu"
 				}
@@ -421,7 +446,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 529.0, 179.0, 105.0, 22.0 ],
+					"patching_rect" : [ 529.0, 205.0, 105.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"externalfiles" : 1
@@ -617,15 +642,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-21", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-17", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -665,7 +681,7 @@
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 606.0, 49.0, 538.5, 49.0 ],
+					"midpoints" : [ 606.0, 68.0, 538.5, 68.0 ],
 					"source" : [ "obj-25", 0 ]
 				}
 
@@ -696,6 +712,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-30", 0 ]
 				}
 
 			}
@@ -755,10 +780,19 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-43", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 748.0, 50.0, 538.5, 50.0 ],
+					"midpoints" : [ 748.0, 69.0, 538.5, 69.0 ],
 					"source" : [ "obj-40", 0 ]
 				}
 
@@ -796,15 +830,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-7", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-8", 0 ]
 				}
 
 			}
