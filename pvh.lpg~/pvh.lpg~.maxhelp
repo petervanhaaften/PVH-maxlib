@@ -38,6 +38,31 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 236.0, 278.0, 150.0, 20.0 ],
+					"style" : "",
+					"text" : "--->"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 180.0, 278.0, 64.0, 60.0 ],
+					"style" : "",
+					"text" : "raise amplitude to  hear output !"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-21",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -520,13 +545,13 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-14::obj-6" : [ "decay", "decay", 0 ],
 			"obj-3::obj-1" : [ "vcaness", "vcaness", 0 ],
-			"obj-14::obj-16" : [ "shape[2]", "shape", 0 ],
 			"obj-3::obj-31" : [ "resonance", "reson", 0 ],
-			"obj-3::obj-66" : [ "offset", "offset", 0 ],
+			"obj-14::obj-4" : [ "attack", "attack", 0 ],
+			"obj-14::obj-6" : [ "decay", "decay", 0 ],
 			"obj-14::obj-1" : [ "shape", "shape", 0 ],
-			"obj-14::obj-4" : [ "attack", "attack", 0 ]
+			"obj-3::obj-66" : [ "offset", "offset", 0 ],
+			"obj-14::obj-16" : [ "shape[2]", "shape", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 465.0, 380.0, 150.0, 210.0 ],
+		"rect" : [ 105.0, 243.0, 402.0, 526.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -55,7 +55,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 0.0, 0.0, 150.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 150.0, 70.0 ],
+					"presentation_rect" : [ 0.0, -1.0, 150.0, 70.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -77,9 +77,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.0, 49.5, 150.0, 70.0 ],
+					"patching_rect" : [ 0.0, 72.0, 150.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 39.5, 150.0, 70.0 ],
+					"presentation_rect" : [ 1.0, 47.0, 150.0, 70.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -101,9 +101,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.0, 99.5, 150.0, 70.0 ],
+					"patching_rect" : [ 0.0, 144.0, 150.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 90.5, 150.0, 70.0 ],
+					"presentation_rect" : [ 1.0, 95.0, 150.0, 70.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -125,9 +125,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.0, 150.5, 150.0, 70.0 ],
+					"patching_rect" : [ 0.0, 216.0, 150.0, 70.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 141.5, 150.0, 70.0 ],
+					"presentation_rect" : [ 1.0, 143.0, 150.0, 70.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -195,7 +195,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.0, -2.0, 150.0, 210.0 ],
+					"patching_rect" : [ 0.0, -2.0, 150.0, 280.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 210.0 ],
 					"text" : "/no_..ess"
@@ -223,22 +223,22 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-10::obj-16" : [ "shape[7]", "shape", 0 ],
 			"obj-11::obj-1" : [ "shape", "shape", 0 ],
-			"obj-10::obj-6" : [ "decay[3]", "decay", 0 ],
-			"obj-8::obj-16" : [ "shape[3]", "shape", 0 ],
+			"obj-11::obj-4" : [ "attack", "attack", 0 ],
+			"obj-8::obj-6" : [ "decay[1]", "decay", 0 ],
 			"obj-8::obj-4" : [ "attack[1]", "attack", 0 ],
 			"obj-9::obj-16" : [ "shape[6]", "shape", 0 ],
-			"obj-11::obj-6" : [ "decay", "decay", 0 ],
 			"obj-10::obj-4" : [ "attack[3]", "attack", 0 ],
-			"obj-11::obj-16" : [ "shape[2]", "shape", 0 ],
-			"obj-11::obj-4" : [ "attack", "attack", 0 ],
-			"obj-9::obj-6" : [ "decay[2]", "decay", 0 ],
+			"obj-11::obj-6" : [ "decay", "decay", 0 ],
 			"obj-9::obj-1" : [ "shape[5]", "shape", 0 ],
+			"obj-10::obj-6" : [ "decay[3]", "decay", 0 ],
+			"obj-8::obj-16" : [ "shape[4]", "shape", 0 ],
 			"obj-10::obj-1" : [ "shape[8]", "shape", 0 ],
-			"obj-8::obj-1" : [ "shape[4]", "shape", 0 ],
-			"obj-9::obj-4" : [ "attack[2]", "attack", 0 ],
-			"obj-10::obj-16" : [ "shape[7]", "shape", 0 ],
-			"obj-8::obj-6" : [ "decay[1]", "decay", 0 ]
+			"obj-8::obj-1" : [ "shape[3]", "shape", 0 ],
+			"obj-11::obj-16" : [ "shape[2]", "shape", 0 ],
+			"obj-9::obj-6" : [ "decay[2]", "decay", 0 ],
+			"obj-9::obj-4" : [ "attack[2]", "attack", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{

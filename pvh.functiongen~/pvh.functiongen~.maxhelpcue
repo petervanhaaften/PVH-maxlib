@@ -33,7 +33,7 @@
 /osc1/modratioman 0
 /osc1/modfreq 0.000000
 /osc1/modratio 0.000000
-/osc1/carrierfreq 40.000000
+/osc1/carrierfreq 200.000000
 /osc1/carriersinsaw 0.181102
 /osc1/modindex 4.645669
 /osc1/modnoise 0.000000
@@ -43,7 +43,7 @@
 # 
 /function1/attack 5.000000
 /function1/attack_shape 0.000000
-/function1/decay 208.503937
+/function1/decay 414.583205
 /function1/decay_shape -0.472441
 # 
 # ###########################################
