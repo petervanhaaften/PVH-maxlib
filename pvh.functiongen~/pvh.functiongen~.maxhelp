@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 163.0, 79.0, 1023.0, 631.0 ],
+		"rect" : [ 454.0, 82.0, 1023.0, 631.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,158 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"annotation" : "none",
+					"args" : [ "function5" ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-25",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "pvh.functiongen.view~.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 28.0, 559.0, 150.0, 70.0 ],
+					"presentation_rect" : [ 60.0, 60.0, 150.0, 70.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "AD variable shape function generator",
+					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
+					"id" : "obj-22",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "" ],
+					"patching_rect" : [ 741.0, 129.0, 190.0, 22.0 ],
+					"style" : "",
+					"text" : "pvh.functiongen.model~ function5"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "AD variable shape function generator",
+					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
+					"id" : "obj-23",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "" ],
+					"patching_rect" : [ 529.0, 129.0, 190.0, 22.0 ],
+					"style" : "",
+					"text" : "pvh.functiongen.model~ function4"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "none",
+					"args" : [ "function4" ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-21",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "pvh.functiongen.view~.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 28.0, 487.0, 150.0, 70.0 ],
+					"presentation_rect" : [ 45.0, 45.0, 150.0, 70.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "none",
+					"args" : [ "function3" ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-15",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "pvh.functiongen.view~.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 28.0, 415.0, 150.0, 70.0 ],
+					"presentation_rect" : [ 30.0, 30.0, 150.0, 70.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "AD variable shape function generator",
+					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "" ],
+					"patching_rect" : [ 727.0, 21.0, 190.0, 22.0 ],
+					"style" : "",
+					"text" : "pvh.functiongen.model~ function3"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "none",
+					"args" : [ "function2" ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-20",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "pvh.functiongen.view~.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 28.0, 343.0, 150.0, 70.0 ],
+					"presentation_rect" : [ 15.0, 15.0, 150.0, 70.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "AD variable shape function generator",
+					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
+					"id" : "obj-18",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "" ],
+					"patching_rect" : [ 515.0, 21.0, 190.0, 22.0 ],
+					"style" : "",
+					"text" : "pvh.functiongen.model~ function2"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"format" : 6,
 					"id" : "obj-10",
 					"maxclass" : "flonum",
@@ -65,26 +217,14 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-25",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 102.5, 227.0, 150.0, 20.0 ],
-					"style" : "",
-					"text" : "by pvh 2017"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-19",
-					"linecount" : 5,
+					"linecount" : 16,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 28.0, 80.0, 180.0, 74.0 ],
+					"patching_rect" : [ 28.0, 50.5, 188.0, 221.0 ],
 					"style" : "",
-					"text" : "an attack-decay function generator, with variable shape for both parameters.\n\nbuilt using curve~"
+					"text" : "functiongen~\npvh 2018\n\nan attack-decay function generator, with variable shape.\n\nsort of like 1 channel of a Buchla 281 quad function generator.\n\nbuilt using curve~\n\n\"snp\" button enables snapshot~ output through \"/envelope\" osc address mapping. number box below snp controls snapshot~ speed (default of 5ms)."
 				}
 
 			}
@@ -94,7 +234,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 99.0, 28.5, 150.0, 20.0 ],
+					"patching_rect" : [ 102.0, 14.5, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "START test patch !!---->"
 				}
@@ -194,12 +334,25 @@
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "bang" ],
+									"patching_rect" : [ 84.0, 49.0, 57.0, 22.0 ],
+									"style" : "",
+									"text" : "del 1000"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-3",
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 55.0, 41.0, 22.0 ],
+									"patching_rect" : [ 50.0, 8.0, 41.0, 22.0 ],
 									"style" : "",
 									"text" : "r start"
 								}
@@ -293,6 +446,15 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-8", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
@@ -324,6 +486,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-23", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-3", 0 ]
 								}
 
 							}
@@ -388,7 +559,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 28.0, 156.0, 150.0, 70.0 ],
+					"patching_rect" : [ 28.0, 271.0, 150.0, 70.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 70.0 ],
 					"viewvisibility" : 1
 				}
@@ -416,7 +587,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 296.5, 180.0, 65.0, 22.0 ],
+					"patching_rect" : [ 296.5, 174.0, 65.0, 22.0 ],
 					"style" : "",
 					"text" : "metro 250"
 				}
@@ -550,10 +721,46 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-23", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-22", 0 ]
 				}
 
 			}
@@ -586,46 +793,143 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-4::obj-1::obj-12::obj-5" : [ "Preamp", "Preamp", 0 ],
-			"obj-4::obj-1::obj-17" : [ "Master Gain[1]", "Master Gain", 0 ],
-			"obj-5::obj-4" : [ "attack", "attack", 0 ],
-			"obj-2::obj-12" : [ "live.dial[2]", "index", 0 ],
-			"obj-2::obj-45" : [ "live.numbox[29]", "live.numbox", 0 ],
-			"obj-4::obj-1::obj-98" : [ "live.menu[1]", "live.menu", 0 ],
-			"obj-2::obj-48" : [ "live.toggle", "live.toggle", 0 ],
-			"obj-4::obj-1::obj-12::obj-45" : [ "live.text[2]", "live.text", 0 ],
-			"obj-4::obj-1::obj-12::obj-30" : [ "live.menu", "live.menu", 0 ],
-			"obj-4::obj-1::obj-111" : [ "live.numbox[2]", "live.numbox[2]", 0 ],
-			"obj-5::obj-1" : [ "shape", "shape", 0 ],
-			"obj-4::obj-1::obj-12::obj-6" : [ "live.text", "live.text", 0 ],
-			"obj-4::obj-1::obj-106" : [ "live.dial[6]", "Release", 0 ],
-			"obj-4::obj-1::obj-12::obj-42" : [ "live.text[1]", "live.text", 0 ],
-			"obj-2::obj-30" : [ "live.toggle[2]", "live.toggle", 0 ],
-			"obj-4::obj-1::obj-90" : [ "live.text[4]", "live.text[1]", 0 ],
-			"obj-2::obj-43" : [ "live.numbox[32]", "live.numbox", 0 ],
-			"obj-4::obj-1::obj-104" : [ "live.dial[1]", "Depth", 0 ],
-			"obj-5::obj-16" : [ "shape[2]", "shape", 0 ],
-			"obj-2::obj-9" : [ "live.dial[4]", "noise_filt", 0 ],
-			"obj-2::obj-10" : [ "live.dial", "morph", 0 ],
-			"obj-2::obj-16" : [ "live.dial[3]", "noise", 0 ],
-			"obj-4::obj-1::obj-103" : [ "live.text[5]", "live.text", 0 ],
+			"obj-2::obj-1::obj-117::obj-182" : [ "live.text[13]", "live.text[4]", 0 ],
 			"obj-2::obj-31" : [ "live.toggle[1]", "live.toggle", 0 ],
-			"obj-4::obj-1::obj-108" : [ "live.text[6]", "live.text[4]", 0 ],
-			"obj-4::obj-1::obj-12::obj-27" : [ "Threshold", "Threshold", 0 ],
-			"obj-4::obj-1::obj-12::obj-15" : [ "Postamp", "Postamp", 0 ],
-			"obj-4::obj-1::obj-12::obj-13" : [ "Release", "Release", 0 ],
-			"obj-5::obj-6" : [ "deay", "decay", 0 ],
+			"obj-2::obj-16" : [ "live.dial[3]", "noise", 0 ],
+			"obj-4::obj-1::obj-12::obj-45" : [ "live.text[16]", "live.text", 0 ],
+			"obj-5::obj-6" : [ "deay[2]", "decay", 0 ],
+			"obj-21::obj-16" : [ "shape[9]", "shape", 0 ],
+			"obj-2::obj-1::obj-67::obj-182" : [ "live.text[2]", "live.text[4]", 0 ],
+			"obj-4::obj-1::obj-12::obj-30" : [ "live.menu", "live.menu", 0 ],
+			"obj-20::obj-8::obj-66::obj-10::obj-196" : [ "live.text[37]", "live.text", 0 ],
+			"obj-15::obj-8::obj-67::obj-182" : [ "live.text[25]", "live.text[4]", 0 ],
+			"obj-25::obj-8::obj-70::obj-10::obj-10::obj-145" : [ "live.menu[27]", "live.menu", 0 ],
+			"obj-2::obj-1::obj-66::obj-10::obj-10::obj-145" : [ "live.menu[4]", "live.menu", 0 ],
 			"obj-2::obj-51" : [ "live.toggle[3]", "live.toggle", 0 ],
-			"obj-4::obj-1::obj-12::obj-12" : [ "Lookahead", "Lookahead", 0 ],
-			"obj-4::obj-1::obj-110" : [ "live.numbox[1]", "live.numbox[1]", 0 ],
-			"obj-2::obj-40" : [ "live.numbox[34]", "live.numbox", 0 ],
-			"obj-4::obj-1::obj-107" : [ "live.dial[5]", "Preamp", 0 ],
-			"obj-4::obj-1::obj-102" : [ "live.text[3]", "live.text", 0 ],
-			"obj-4::obj-1::obj-97" : [ "live.numbox", "CPU", 0 ],
-			"obj-2::obj-36" : [ "live.numbox[30]", "live.numbox", 0 ],
+			"obj-5::obj-8::obj-68::obj-182" : [ "live.text[39]", "live.text[4]", 0 ],
+			"obj-2::obj-1::obj-117::obj-10::obj-10::obj-145" : [ "live.menu[7]", "live.menu", 0 ],
+			"obj-4::obj-1::obj-12::obj-6" : [ "live.text", "live.text", 0 ],
+			"obj-4::obj-1::obj-12::obj-27" : [ "Threshold", "Threshold", 0 ],
+			"obj-15::obj-8::obj-70::obj-182" : [ "live.text[23]", "live.text[4]", 0 ],
+			"obj-21::obj-8::obj-66::obj-10::obj-196" : [ "live.text[53]", "live.text", 0 ],
+			"obj-2::obj-1::obj-121::obj-182" : [ "live.text[11]", "live.text[4]", 0 ],
+			"obj-21::obj-8::obj-66::obj-10::obj-10::obj-145" : [ "live.menu[26]", "live.menu", 0 ],
+			"obj-25::obj-16" : [ "shape[11]", "shape", 0 ],
+			"obj-4::obj-1::obj-12::obj-15" : [ "Postamp", "Postamp", 0 ],
 			"obj-4::obj-1::obj-82" : [ "pan", "Pan", 0 ],
+			"obj-5::obj-8::obj-68::obj-10::obj-196" : [ "live.text[40]", "live.text", 0 ],
+			"obj-25::obj-8::obj-70::obj-182" : [ "live.text[54]", "live.text[4]", 0 ],
+			"obj-2::obj-45" : [ "live.numbox[29]", "live.numbox", 0 ],
+			"obj-20::obj-1" : [ "shape[4]", "shape", 0 ],
+			"obj-4::obj-1::obj-12::obj-13" : [ "Release", "Release", 0 ],
+			"obj-20::obj-8::obj-66::obj-182" : [ "live.text[36]", "live.text[4]", 0 ],
+			"obj-21::obj-8::obj-70::obj-10::obj-196" : [ "live.text[28]", "live.text", 0 ],
+			"obj-2::obj-1::obj-105::obj-10::obj-10::obj-145" : [ "live.menu[8]", "live.menu", 0 ],
+			"obj-4::obj-1::obj-102" : [ "live.text[20]", "live.text", 0 ],
+			"obj-25::obj-8::obj-66::obj-10::obj-196" : [ "live.text[61]", "live.text", 0 ],
+			"obj-25::obj-1" : [ "shape[12]", "shape", 0 ],
+			"obj-2::obj-1::obj-70::obj-182" : [ "live.text[6]", "live.text[4]", 0 ],
+			"obj-21::obj-8::obj-68::obj-10::obj-10::obj-145" : [ "live.menu[24]", "live.menu", 0 ],
+			"obj-25::obj-4" : [ "attack[5]", "attack", 0 ],
+			"obj-21::obj-8::obj-70::obj-182" : [ "live.text[27]", "live.text[4]", 0 ],
+			"obj-2::obj-1::obj-67::obj-10::obj-196" : [ "live.text[1]", "live.text", 0 ],
+			"obj-2::obj-1::obj-121::obj-10::obj-10::obj-145" : [ "live.menu[6]", "live.menu", 0 ],
+			"obj-20::obj-8::obj-67::obj-10::obj-10::obj-145" : [ "live.menu[17]", "live.menu", 0 ],
+			"obj-25::obj-8::obj-70::obj-10::obj-196" : [ "live.text[55]", "live.text", 0 ],
+			"obj-25::obj-8::obj-68::obj-10::obj-196" : [ "live.text[57]", "live.text", 0 ],
+			"obj-4::obj-1::obj-90" : [ "live.text[19]", "live.text[1]", 0 ],
+			"obj-5::obj-8::obj-70::obj-10::obj-10::obj-145" : [ "live.menu[19]", "live.menu", 0 ],
+			"obj-5::obj-4" : [ "attack[2]", "attack", 0 ],
+			"obj-25::obj-8::obj-68::obj-10::obj-10::obj-145" : [ "live.menu[28]", "live.menu", 0 ],
+			"obj-20::obj-8::obj-67::obj-182" : [ "live.text[34]", "live.text[4]", 0 ],
+			"obj-21::obj-8::obj-68::obj-10::obj-196" : [ "live.text[50]", "live.text", 0 ],
+			"obj-21::obj-4" : [ "attack[4]", "attack", 0 ],
+			"obj-2::obj-1::obj-121::obj-10::obj-196" : [ "live.text[10]", "live.text", 0 ],
 			"obj-4::obj-1::obj-100" : [ "live.text[7]", "live.text[1]", 0 ],
-			"obj-4::obj-1::obj-99" : [ "live.menu[2]", "live.menu[2]", 0 ]
+			"obj-21::obj-8::obj-66::obj-182" : [ "live.text[52]", "live.text[4]", 0 ],
+			"obj-2::obj-1::obj-68::obj-182" : [ "live.text[4]", "live.text[4]", 0 ],
+			"obj-5::obj-8::obj-66::obj-10::obj-196" : [ "live.text[44]", "live.text", 0 ],
+			"obj-20::obj-8::obj-66::obj-10::obj-10::obj-145" : [ "live.menu[18]", "live.menu", 0 ],
+			"obj-15::obj-8::obj-70::obj-10::obj-196" : [ "live.text[24]", "live.text", 0 ],
+			"obj-25::obj-8::obj-67::obj-10::obj-196" : [ "live.text[59]", "live.text", 0 ],
+			"obj-2::obj-1::obj-66::obj-182" : [ "live.text[8]", "live.text[4]", 0 ],
+			"obj-20::obj-8::obj-68::obj-182" : [ "live.text[32]", "live.text[4]", 0 ],
+			"obj-15::obj-8::obj-67::obj-10::obj-196" : [ "live.text[47]", "live.text", 0 ],
+			"obj-2::obj-1::obj-70::obj-10::obj-10::obj-145" : [ "live.menu[2]", "live.menu", 0 ],
+			"obj-4::obj-1::obj-111" : [ "live.numbox[2]", "live.numbox[2]", 0 ],
+			"obj-4::obj-1::obj-107" : [ "live.dial[5]", "Preamp", 0 ],
+			"obj-20::obj-6" : [ "deay[1]", "decay", 0 ],
+			"obj-15::obj-1" : [ "shape[8]", "shape", 0 ],
+			"obj-4::obj-1::obj-108" : [ "live.text[18]", "live.text[4]", 0 ],
+			"obj-21::obj-8::obj-70::obj-10::obj-10::obj-145" : [ "live.menu[14]", "live.menu", 0 ],
+			"obj-2::obj-1::obj-70::obj-10::obj-196" : [ "live.text[5]", "live.text", 0 ],
+			"obj-4::obj-1::obj-12::obj-5" : [ "Preamp", "Preamp", 0 ],
+			"obj-20::obj-8::obj-68::obj-10::obj-196" : [ "live.text[33]", "live.text", 0 ],
+			"obj-21::obj-8::obj-67::obj-10::obj-10::obj-145" : [ "live.menu[25]", "live.menu", 0 ],
+			"obj-2::obj-12" : [ "live.dial[2]", "index", 0 ],
+			"obj-25::obj-8::obj-66::obj-10::obj-10::obj-145" : [ "live.menu[30]", "live.menu", 0 ],
+			"obj-15::obj-8::obj-66::obj-182" : [ "live.text[48]", "live.text[4]", 0 ],
+			"obj-5::obj-1" : [ "shape[6]", "shape", 0 ],
+			"obj-20::obj-8::obj-68::obj-10::obj-10::obj-145" : [ "live.menu[16]", "live.menu", 0 ],
+			"obj-15::obj-8::obj-66::obj-10::obj-10::obj-145" : [ "live.menu[23]", "live.menu", 0 ],
+			"obj-21::obj-8::obj-68::obj-182" : [ "live.text[49]", "live.text[4]", 0 ],
+			"obj-2::obj-1::obj-105::obj-182" : [ "live.text[15]", "live.text[4]", 0 ],
+			"obj-25::obj-8::obj-66::obj-182" : [ "live.text[60]", "live.text[4]", 0 ],
+			"obj-2::obj-43" : [ "live.numbox[32]", "live.numbox", 0 ],
+			"obj-5::obj-8::obj-70::obj-182" : [ "live.text[22]", "live.text[4]", 0 ],
+			"obj-15::obj-6" : [ "deay[3]", "decay", 0 ],
+			"obj-21::obj-1" : [ "shape[10]", "shape", 0 ],
+			"obj-2::obj-1::obj-68::obj-10::obj-196" : [ "live.text[3]", "live.text", 0 ],
+			"obj-4::obj-1::obj-17" : [ "Master Gain[1]", "Master Gain", 0 ],
+			"obj-5::obj-8::obj-67::obj-10::obj-196" : [ "live.text[42]", "live.text", 0 ],
+			"obj-15::obj-8::obj-66::obj-10::obj-196" : [ "live.text[26]", "live.text", 0 ],
+			"obj-25::obj-8::obj-68::obj-182" : [ "live.text[56]", "live.text[4]", 0 ],
+			"obj-2::obj-10" : [ "live.dial", "morph", 0 ],
+			"obj-2::obj-40" : [ "live.numbox[34]", "live.numbox", 0 ],
+			"obj-4::obj-1::obj-103" : [ "live.text[21]", "live.text", 0 ],
+			"obj-5::obj-8::obj-70::obj-10::obj-196" : [ "live.text[38]", "live.text", 0 ],
+			"obj-15::obj-8::obj-70::obj-10::obj-10::obj-145" : [ "live.menu[12]", "live.menu", 0 ],
+			"obj-2::obj-1::obj-68::obj-10::obj-10::obj-145" : [ "live.menu[5]", "live.menu", 0 ],
+			"obj-15::obj-8::obj-67::obj-10::obj-10::obj-145" : [ "live.menu[13]", "live.menu", 0 ],
+			"obj-2::obj-36" : [ "live.numbox[30]", "live.numbox", 0 ],
+			"obj-20::obj-4" : [ "attack[1]", "attack", 0 ],
+			"obj-21::obj-8::obj-67::obj-182" : [ "live.text[29]", "live.text[4]", 0 ],
+			"obj-2::obj-30" : [ "live.toggle[2]", "live.toggle", 0 ],
+			"obj-4::obj-1::obj-12::obj-12" : [ "Lookahead", "Lookahead", 0 ],
+			"obj-5::obj-8::obj-66::obj-182" : [ "live.text[43]", "live.text[4]", 0 ],
+			"obj-25::obj-8::obj-67::obj-182" : [ "live.text[58]", "live.text[4]", 0 ],
+			"obj-20::obj-8::obj-70::obj-182" : [ "live.text[30]", "live.text[4]", 0 ],
+			"obj-2::obj-1::obj-105::obj-10::obj-196" : [ "live.text[14]", "live.text", 0 ],
+			"obj-5::obj-16" : [ "shape[5]", "shape", 0 ],
+			"obj-4::obj-1::obj-110" : [ "live.numbox[1]", "live.numbox[1]", 0 ],
+			"obj-5::obj-8::obj-67::obj-182" : [ "live.text[41]", "live.text[4]", 0 ],
+			"obj-25::obj-6" : [ "deay[5]", "decay", 0 ],
+			"obj-4::obj-1::obj-99" : [ "live.menu[10]", "live.menu[2]", 0 ],
+			"obj-15::obj-16" : [ "shape[7]", "shape", 0 ],
+			"obj-2::obj-1::obj-67::obj-10::obj-10::obj-145" : [ "live.menu[1]", "live.menu", 0 ],
+			"obj-5::obj-8::obj-66::obj-10::obj-10::obj-145" : [ "live.menu[21]", "live.menu", 0 ],
+			"obj-4::obj-1::obj-12::obj-42" : [ "live.text[17]", "live.text", 0 ],
+			"obj-4::obj-1::obj-106" : [ "live.dial[6]", "Release", 0 ],
+			"obj-4::obj-1::obj-97" : [ "live.numbox", "CPU", 0 ],
+			"obj-5::obj-8::obj-67::obj-10::obj-10::obj-145" : [ "live.menu[11]", "live.menu", 0 ],
+			"obj-15::obj-4" : [ "attack[3]", "attack", 0 ],
+			"obj-21::obj-6" : [ "deay[4]", "decay", 0 ],
+			"obj-2::obj-1::obj-66::obj-10::obj-196" : [ "live.text[9]", "live.text", 0 ],
+			"obj-15::obj-8::obj-68::obj-10::obj-10::obj-145" : [ "live.menu[22]", "live.menu", 0 ],
+			"obj-25::obj-8::obj-67::obj-10::obj-10::obj-145" : [ "live.menu[29]", "live.menu", 0 ],
+			"obj-20::obj-8::obj-70::obj-10::obj-10::obj-145" : [ "live.menu[15]", "live.menu", 0 ],
+			"obj-2::obj-1::obj-117::obj-10::obj-196" : [ "live.text[12]", "live.text", 0 ],
+			"obj-2::obj-48" : [ "live.toggle", "live.toggle", 0 ],
+			"obj-20::obj-8::obj-67::obj-10::obj-196" : [ "live.text[35]", "live.text", 0 ],
+			"obj-4::obj-1::obj-104" : [ "live.dial[1]", "Depth", 0 ],
+			"obj-5::obj-8::obj-68::obj-10::obj-10::obj-145" : [ "live.menu[20]", "live.menu", 0 ],
+			"obj-20::obj-8::obj-70::obj-10::obj-196" : [ "live.text[31]", "live.text", 0 ],
+			"obj-15::obj-8::obj-68::obj-182" : [ "live.text[45]", "live.text[4]", 0 ],
+			"obj-4::obj-1::obj-98" : [ "live.menu[9]", "live.menu", 0 ],
+			"obj-20::obj-16" : [ "shape[3]", "shape", 0 ],
+			"obj-21::obj-8::obj-67::obj-10::obj-196" : [ "live.text[51]", "live.text", 0 ],
+			"obj-2::obj-9" : [ "live.dial[4]", "noise_filt", 0 ],
+			"obj-15::obj-8::obj-68::obj-10::obj-196" : [ "live.text[46]", "live.text", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -647,9 +951,39 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "j.nav.oscroute.model.maxpat",
+				"bootpath" : "~/src/max/Nav/Jamoma-v1/j.nav.oscroute",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "pvh.complexosc~.view.maxpat",
 				"bootpath" : "~/src/max/PVH-maxlib/pvh.complexosc~",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.nav.oscroute.view.maxpat",
+				"bootpath" : "~/src/max/Nav/Jamoma-v1/j.nav.oscroute",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.namespacebrowser.view.maxpat",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/components/namespace/namespacebrowser",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "j.get_onscreen_position.js",
+				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/javascript",
+				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
@@ -697,12 +1031,6 @@
 , 			{
 				"name" : "record.parametersAndMessages.maxpat",
 				"bootpath" : "~/Documents/Max 7/Packages/Jamoma/patchers/models/audio/stereo/output/record",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "thru.maxpat",
-				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -773,6 +1101,30 @@
 				"type" : "iLaX"
 			}
 , 			{
+				"name" : "j.message.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.parameter_array.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.receive.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.map.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.stats.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "j.out.mxo",
+				"type" : "iLaX"
+			}
+, 			{
 				"name" : "j.ui.mxo",
 				"type" : "iLaX"
 			}
@@ -789,19 +1141,15 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.receive.mxo",
-				"type" : "iLaX"
-			}
-, 			{
 				"name" : "j.send.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.message.mxo",
+				"name" : "j.remote_array.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.stats.mxo",
+				"name" : "j.init.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -830,10 +1178,6 @@
 			}
 , 			{
 				"name" : "j.cue.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.init.mxo",
 				"type" : "iLaX"
 			}
 , 			{
