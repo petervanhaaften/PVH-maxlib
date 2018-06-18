@@ -2,32 +2,42 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 6,
-			"minor" : 1,
-			"revision" : 3,
-			"architecture" : "x86"
+			"major" : 7,
+			"minor" : 3,
+			"revision" : 4,
+			"architecture" : "x64",
+			"modernui" : 1
 		}
 ,
-		"rect" : [ 321.0, 44.0, 1140.0, 1036.0 ],
+		"rect" : [ 334.0, 90.0, 887.0, 737.0 ],
 		"bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
+		"editing_bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
-		"gridonopen" : 0,
+		"gridonopen" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
-		"gridsnaponopen" : 0,
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
 		"toolbarvisible" : 1,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
@@ -37,7 +47,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 879.0, 63.0, 80.0, 20.0 ],
+					"patching_rect" : [ 780.0, 45.0, 80.0, 22.0 ],
+					"style" : "",
 					"text" : "param nonlin"
 				}
 
@@ -46,13 +57,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"frgb" : 0.0,
 					"id" : "obj-12",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 546.0, 732.0, 150.0, 33.0 ],
+					"patching_rect" : [ 450.0, 690.0, 150.0, 33.0 ],
+					"style" : "",
 					"text" : "Outputs can be mixed to produce other filter modes"
 				}
 
@@ -66,7 +77,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 716.0, 78.0, 30.0, 20.0 ],
+					"patching_rect" : [ 690.0, 45.0, 30.0, 22.0 ],
+					"style" : "",
 					"text" : "in 5"
 				}
 
@@ -79,7 +91,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 801.0, 755.0, 37.0, 20.0 ],
+					"patching_rect" : [ 825.0, 690.0, 37.0, 22.0 ],
+					"style" : "",
 					"text" : "out 3"
 				}
 
@@ -92,7 +105,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 417.0, 755.0, 37.0, 20.0 ],
+					"patching_rect" : [ 405.0, 690.0, 37.0, 22.0 ],
+					"style" : "",
 					"text" : "out 2"
 				}
 
@@ -105,7 +119,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 182.0, 755.0, 37.0, 20.0 ],
+					"patching_rect" : [ 15.0, 690.0, 37.0, 22.0 ],
+					"style" : "",
 					"text" : "out 1"
 				}
 
@@ -119,7 +134,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 696.0, 20.0, 30.0, 20.0 ],
+					"patching_rect" : [ 525.0, 45.0, 30.0, 22.0 ],
+					"style" : "",
 					"text" : "in 4"
 				}
 
@@ -127,6 +143,7 @@
 , 			{
 				"box" : 				{
 					"code" : "History so(0.),sx(0.),sd(0.),xo(0.);\r\nc1=(1e-09);\r\nc2=(2.2e-10);\r\nc3=(4.7e-09);\r\n\r\nif (in5 < 0.5){\r\nc3=(0.);\r\n}\r\n\r\n//r1 = 1e3;\r\nrf = in2;\r\n//rf = 30e3;\r\nr3 = in3;\r\n\r\nmax_res = 1*(2 *c1*r3+(c2+c3)*(r3+rf))/(c3*r3);\r\na =clip(in4,0.0,max_res);\r\n//a = in4* max_res;\r\nx = in1;\r\n\r\nf = 0.5/samplerate;\r\n//f = 2*pi * (in2+1e-3)*0.5/samplerate;\r\n\r\na1 = 1/(c1*rf);\r\na2 = -(1/rf+1/r3)/c1;\r\nb1 = 1/(rf*c2);\r\nb2 = -2/(rf*c2);\r\nb3 =1/(rf*c2);\r\nb4= c3/c2;\r\nd1= a;\r\nd2= -1;\r\ntanh_xo= tanh(xo);\r\n//b2 = (a*c3/c1 -1 - 1/(1+r1/rf))/(rf*(c2+c3));\t\t\t//\tExtra Feedback resistor\r\n//b3 =(1/(1+r1/rf)- (1+rf/r3)*a*c3/c1)/(rf*(c2+c3));\t//\tExtra Feedback resistor\r\n\r\nDx =1/(1-b2*f);\r\nDo =1/(1-a2*f);\r\n\r\nif (in6 > 0.5) {\r\n\r\nDmas = 1/(1-Dx*(f*f*b3*Do*a1 + b4*f*d1*(1-pow(tanh_xo,2))*Do*a1 + b4*d2));\r\n\r\nyx =(sx + f*b1*x + f*b3*Do*so + f*b4*(sd+(1/f)*d1*(tanh_xo - xo*(1-pow(tanh_xo,2)))) + b4*d1*(1-pow(tanh_xo,2))*Do*so)*Dx*Dmas;\r\n\r\nyo =(so+f*a1*yx)*Do;\r\n\r\nyd = (sd+(1/f)*d1*(tanh_xo - xo*(1-pow(tanh_xo,2)))) + (1/f)*(d1*((1-pow(tanh_xo,2)))*yo+d2*yx);\r\n\r\nsx = sx + 2*f*(b1*x + b2*yx + b3*yo +b4*yd);\r\n\r\nso = so + 2*f*(a1*yx + a2*yo);\r\n\r\nsd = -(sd+(2/f)*d1*(tanh_xo - xo*(1-pow(tanh_xo,2)))) - (2/f)*(d1*(1-pow(tanh_xo,2))*yo + d2*yx);\r\nxo=yo;\r\nout1 = yo;\r\nout2 = yx;\r\nout3 = yd;\r\n}\r\n\r\nif (in6 < 0.5) {\r\nDmas = 1/(1-Dx*(f*f*b3*Do*a1 + b4*f*d1*Do*a1 + b4*d2));\r\n\r\nyx =(sx + f*b1*x + f*b3*Do*so + f*b4*sd + b4*d1*Do*so)*Dx*Dmas;\r\n\r\nyo =(so+f*a1*yx)*Do;\r\n\r\nyd = sd + (1/f)*(d1*yo+d2*yx) ;\r\n\r\nsx = sx + 2*f*(b1*x + b2*yx + b3*yo +b4*yd);\r\n\r\nso = so + 2*f*(a1*yx + a2*yo);\r\n\r\nsd = -sd - (2/f)*(d1*yo + d2*yx);\r\n\r\nout1 = yo;\r\nout2 = yx;\r\nout3 = yd;\r\n}\r\n\r\n",
+					"fontface" : 0,
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-10",
@@ -134,7 +151,8 @@
 					"numinlets" : 6,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 33.0, 112.0, 787.0, 588.0 ]
+					"patching_rect" : [ 15.0, 90.0, 855.0, 585.0 ],
+					"style" : ""
 				}
 
 			}
@@ -147,7 +165,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 486.0, 63.0, 137.0, 20.0 ],
+					"patching_rect" : [ 345.0, 45.0, 137.0, 22.0 ],
+					"style" : "",
 					"text" : "expr (1-in1)*5e6 + 10e3"
 				}
 
@@ -161,7 +180,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 486.0, 20.0, 30.0, 20.0 ],
+					"patching_rect" : [ 345.0, 15.0, 30.0, 22.0 ],
+					"style" : "",
 					"text" : "in 3"
 				}
 
@@ -175,7 +195,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 314.0, 20.0, 30.0, 20.0 ],
+					"patching_rect" : [ 180.0, 45.0, 30.0, 22.0 ],
+					"style" : "",
 					"text" : "in 2"
 				}
 
@@ -189,7 +210,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 185.5, 20.0, 30.0, 20.0 ],
+					"patching_rect" : [ 15.0, 45.0, 30.0, 22.0 ],
+					"style" : "",
 					"text" : "in 1"
 				}
 
@@ -198,8 +220,6 @@
 		"lines" : [ 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 4 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -207,8 +227,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-23", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -216,8 +234,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-32", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-10", 1 ]
 				}
 
@@ -225,8 +241,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-10", 2 ]
 				}
 
@@ -234,8 +248,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 3 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -243,8 +255,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -252,8 +262,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -261,8 +269,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-9", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -270,8 +276,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 5 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -279,13 +283,12 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 2 ],
-					"disabled" : 0,
-					"hidden" : 0,
 					"source" : [ "obj-9", 0 ]
 				}
 
 			}
- ]
+ ],
+		"autosave" : 0
 	}
 
 }
