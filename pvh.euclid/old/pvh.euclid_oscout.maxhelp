@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 658.0, 90.0, 1074.0, 847.0 ],
+		"rect" : [ 572.0, 90.0, 1074.0, 847.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -47,48 +47,6 @@
 					"patching_rect" : [ 255.0, 575.0, 101.0, 22.0 ],
 					"style" : "",
 					"text" : "pvh.euclid.model"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"format" : 6,
-					"id" : "obj-26",
-					"maxclass" : "flonum",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 395.0, 290.0, 50.0, 22.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"format" : 6,
-					"id" : "obj-35",
-					"maxclass" : "flonum",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 363.0, 260.0, 50.0, 22.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"format" : 6,
-					"id" : "obj-43",
-					"maxclass" : "flonum",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 314.0, 228.0, 50.0, 22.0 ],
-					"style" : ""
 				}
 
 			}
@@ -933,7 +891,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 100.0, 222.0, 107.0, 22.0 ],
 					"style" : "",
-					"text" : "/trowacv/ch/1 5."
+					"text" : "/trowacv/ch/1 -5."
 				}
 
 			}
@@ -1845,14 +1803,14 @@
 		"dependency_cache" : [ 			{
 				"name" : "pvh.euclid.maxpat",
 				"bootpath" : "~/src/Max/PVH-maxlib/pvh.euclid",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "pvh.euclid.model.maxpat",
 				"bootpath" : "~/src/Max/PVH-maxlib/pvh.euclid",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "..",
 				"type" : "JSON",
 				"implicit" : 1
 			}
