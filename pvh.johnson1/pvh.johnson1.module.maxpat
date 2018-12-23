@@ -44,7 +44,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 128.0, 225.0, 30.0, 30.0 ],
+					"patching_rect" : [ 75.0, 357.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -57,7 +57,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 225.0, 30.0, 30.0 ],
+					"patching_rect" : [ 5.0, 357.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -71,22 +71,22 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 30.0, 135.0, 30.0, 30.0 ],
+					"patching_rect" : [ 5.0, 258.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "Stereo echo module.",
+					"annotation" : "none",
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 30.0, 180.0, 141.0, 22.0 ],
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 5.0, 312.0, 159.0, 22.0 ],
 					"style" : "",
-					"text" : "pvh.euclid.model #1"
+					"text" : "pvh.johnson1.model #1"
 				}
 
 			}
@@ -102,13 +102,13 @@
 					"id" : "obj-2",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "pvh.euclid.view.maxpat",
+					"name" : "pvh.johnson1.view.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.0, 0.0, 150.0, 105.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 150.0, 105.0 ],
+					"patching_rect" : [ 0.0, 0.0, 150.0, 245.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 150.0, 245.0 ],
 					"viewvisibility" : 1
 				}
 
