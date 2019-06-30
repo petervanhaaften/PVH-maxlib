@@ -336,7 +336,7 @@
 							"parameter_shortname" : "Range",
 							"parameter_type" : 0,
 							"parameter_mmin" : 0.1,
-							"parameter_mmax" : 10.0,
+							"parameter_mmax" : 15.0,
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 0.25 ],
 							"parameter_unitstyle" : 4,
@@ -362,7 +362,7 @@
 					"patching_rect" : [ 0.0, 0.5, 150.0, 105.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.5, 150.0, 105.0 ],
-					"text" : "/pup..nd1"
+					"text" : "/test5"
 				}
 
 			}

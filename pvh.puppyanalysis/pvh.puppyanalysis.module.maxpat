@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 441.0, 343.0, 640.0, 480.0 ],
+		"rect" : [ 194.0, 343.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,7 +40,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-6",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -53,7 +53,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -66,11 +66,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-4",
-					"index" : 0,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 162.0, 168.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -80,11 +80,11 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 19.0, 168.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -97,8 +97,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 19.0, 214.0, 162.0, 22.0 ],
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 19.0, 214.0, 174.0, 22.0 ],
 					"style" : "",
 					"text" : "pvh.puppyanalysis.model #1"
 				}
@@ -156,71 +156,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-1::obj-180" : [ "ThreshRange", "Range", 7 ],
-			"obj-1::obj-58" : [ "ThreshRange[3]", "Range", 6 ],
-			"obj-1::obj-177" : [ "MinDb", "Range", 8 ]
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "pvh.puppyanalysis.view.maxpat",
-				"bootpath" : "~/src/Projects/DogLight/pvh.puppyanalysis",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pvh.puppyanalysis.model.maxpat",
-				"bootpath" : "~/src/Projects/DogLight/pvh.puppyanalysis",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dot.timing.debounce.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
-				"patcherrelativepath" : "../../../../Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "dot.timing.translate.maxpat",
-				"bootpath" : "~/Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
-				"patcherrelativepath" : "../../../../Documents/Max 7/Packages/Digital Orchestra Toolbox/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.ui.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.view.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.send.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.receive.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.model.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.parameter.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

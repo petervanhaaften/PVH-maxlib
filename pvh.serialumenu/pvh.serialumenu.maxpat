@@ -38,6 +38,20 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"comment" : "",
+					"id" : "obj-4",
+					"index" : 3,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 430.0, 25.0, 30.0, 30.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-22",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -95,7 +109,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 207.0, 134.0, 99.0, 22.0 ],
+					"patching_rect" : [ 207.0, 134.0, 105.0, 22.0 ],
 					"style" : "",
 					"text" : "r #1-serialoutput"
 				}
@@ -107,7 +121,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 98.0, 3.0, 58.0, 20.0 ],
+					"patching_rect" : [ 430.0, 3.0, 58.0, 20.0 ],
 					"style" : "",
 					"text" : "to serial"
 				}
@@ -427,16 +441,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-16", 1 ],
-					"order" : 0,
-					"source" : [ "obj-28", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
-					"order" : 1,
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -460,6 +465,13 @@
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-39", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}
