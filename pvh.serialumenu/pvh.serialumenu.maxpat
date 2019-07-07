@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 5,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
@@ -520,7 +520,7 @@
 					"outlettype" : [ "int", "" ],
 					"patching_rect" : [ 151.0, 158.142853, 71.0, 19.0 ],
 					"style" : "",
-					"text" : "serial d 115200"
+					"text" : "serial e 115200"
 				}
 
 			}
