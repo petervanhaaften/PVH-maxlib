@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 5,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 517.0, 396.0, 575.0, 454.0 ],
+		"rect" : [ 517.0, 396.0, 318.0, 454.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -520,7 +520,7 @@
 					"outlettype" : [ "int", "" ],
 					"patching_rect" : [ 151.0, 158.142853, 71.0, 19.0 ],
 					"style" : "",
-					"text" : "serial e 115200"
+					"text" : "serial d 115200"
 				}
 
 			}
