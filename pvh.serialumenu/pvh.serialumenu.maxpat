@@ -58,7 +58,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 115.0, 139.0, 41.0, 22.0 ],
 					"style" : "",
-					"text" : "port e"
+					"text" : "port d"
 				}
 
 			}
@@ -520,7 +520,7 @@
 					"outlettype" : [ "int", "" ],
 					"patching_rect" : [ 151.0, 158.142853, 71.0, 19.0 ],
 					"style" : "",
-					"text" : "serial d 115200"
+					"text" : "serial e 115200"
 				}
 
 			}
