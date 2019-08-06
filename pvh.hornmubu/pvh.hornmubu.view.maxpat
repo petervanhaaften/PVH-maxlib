@@ -1703,7 +1703,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 34.0, 104.0, 989.0, 720.0 ],
+						"rect" : [ 297.0, 107.0, 1330.0, 734.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2048,22 +2048,10 @@
 							}
 , 							{
 								"box" : 								{
-									"id" : "obj-9",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 218.0, 27.0, 40.0, 22.0 ],
-									"style" : "",
-									"text" : "r val1"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"hidden" : 1,
 									"id" : "obj-31",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -2079,6 +2067,7 @@
 									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"hidden" : 1,
 									"id" : "obj-32",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -2092,6 +2081,7 @@
 , 							{
 								"box" : 								{
 									"annotation" : "none",
+									"hidden" : 1,
 									"id" : "obj-34",
 									"maxclass" : "slider",
 									"min" : -1200.0,
@@ -2112,6 +2102,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"format" : 6,
+									"hidden" : 1,
 									"htricolor" : [ 0.87, 0.82, 0.24, 1.0 ],
 									"id" : "obj-35",
 									"maxclass" : "flonum",
@@ -2141,6 +2132,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"gradient" : 1,
+									"hidden" : 1,
 									"id" : "obj-36",
 									"maxclass" : "message",
 									"numinlets" : 2,
@@ -2158,6 +2150,7 @@
 									"fontface" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"hidden" : 1,
 									"id" : "obj-23",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -2173,6 +2166,7 @@
 									"bubble" : 1,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"hidden" : 1,
 									"id" : "obj-24",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -2186,6 +2180,7 @@
 , 							{
 								"box" : 								{
 									"annotation" : "none",
+									"hidden" : 1,
 									"id" : "obj-26",
 									"maxclass" : "slider",
 									"min" : 5.0,
@@ -2206,6 +2201,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"format" : 6,
+									"hidden" : 1,
 									"htricolor" : [ 0.87, 0.82, 0.24, 1.0 ],
 									"id" : "obj-28",
 									"maxclass" : "flonum",
@@ -2235,6 +2231,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"gradient" : 1,
+									"hidden" : 1,
 									"id" : "obj-30",
 									"maxclass" : "message",
 									"numinlets" : 2,
@@ -2496,6 +2493,7 @@
 									"fontface" : 2,
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
+									"hidden" : 1,
 									"id" : "obj-190",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -2533,7 +2531,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 150.0, 507.5, 57.0, 22.0 ],
+									"patching_rect" : [ 154.0, 507.5, 57.0, 22.0 ],
 									"style" : "",
 									"text" : "pak 0. 0."
 								}
@@ -2573,6 +2571,7 @@
 								"box" : 								{
 									"annotation" : "none",
 									"floatoutput" : 1,
+									"hidden" : 1,
 									"id" : "obj-197",
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -2592,6 +2591,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"format" : 6,
+									"hidden" : 1,
 									"htricolor" : [ 0.87, 0.82, 0.24, 1.0 ],
 									"id" : "obj-198",
 									"maxclass" : "flonum",
@@ -2648,7 +2648,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 64.0, 507.5, 83.0, 22.0 ],
+									"patching_rect" : [ 64.0, 481.5, 83.0, 22.0 ],
 									"style" : "",
 									"text" : "release $1 $2",
 									"textcolor" : [ 0.92, 0.92, 0.92, 1.0 ]
@@ -2676,6 +2676,7 @@
 									"fontface" : 2,
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
+									"hidden" : 1,
 									"id" : "obj-178",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -2713,7 +2714,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 155.5, 453.5, 57.0, 22.0 ],
+									"patching_rect" : [ 155.5, 454.5, 57.0, 22.0 ],
 									"style" : "",
 									"text" : "pak 0. 0."
 								}
@@ -2753,6 +2754,7 @@
 								"box" : 								{
 									"annotation" : "none",
 									"floatoutput" : 1,
+									"hidden" : 1,
 									"id" : "obj-185",
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -2772,6 +2774,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"format" : 6,
+									"hidden" : 1,
 									"htricolor" : [ 0.87, 0.82, 0.24, 1.0 ],
 									"id" : "obj-186",
 									"maxclass" : "flonum",
@@ -2828,7 +2831,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 71.0, 454.5, 76.0, 22.0 ],
+									"patching_rect" : [ 71.0, 432.5, 76.0, 22.0 ],
 									"style" : "",
 									"text" : "attack $1 $2",
 									"textcolor" : [ 0.92, 0.92, 0.92, 1.0 ]
@@ -2870,7 +2873,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 43.0, 401.5, 104.0, 22.0 ],
+									"patching_rect" : [ 43.0, 378.5, 104.0, 22.0 ],
 									"style" : "",
 									"text" : "durationvar $1 $2",
 									"textcolor" : [ 0.92, 0.92, 0.92, 1.0 ]
@@ -2882,6 +2885,7 @@
 									"fontface" : 2,
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
+									"hidden" : 1,
 									"id" : "obj-152",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -2919,7 +2923,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 155.5, 401.5, 57.0, 22.0 ],
+									"patching_rect" : [ 155.5, 400.5, 57.0, 22.0 ],
 									"style" : "",
 									"text" : "pak 0. 0."
 								}
@@ -2929,6 +2933,7 @@
 								"box" : 								{
 									"annotation" : "none",
 									"floatoutput" : 1,
+									"hidden" : 1,
 									"id" : "obj-155",
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -2948,6 +2953,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"format" : 6,
+									"hidden" : 1,
 									"htricolor" : [ 0.87, 0.82, 0.24, 1.0 ],
 									"id" : "obj-156",
 									"maxclass" : "flonum",
@@ -2977,7 +2983,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 154.0, 377.5, 60.0, 22.0 ],
+									"patching_rect" : [ 155.5, 377.5, 60.0, 22.0 ],
 									"style" : "",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
@@ -3006,6 +3012,7 @@
 									"fontface" : 2,
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
+									"hidden" : 1,
 									"id" : "obj-159",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -3073,7 +3080,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 154.0, 347.5, 57.0, 22.0 ],
+									"patching_rect" : [ 154.0, 350.5, 57.0, 22.0 ],
 									"style" : "",
 									"text" : "pak 0. 0."
 								}
@@ -3113,6 +3120,7 @@
 								"box" : 								{
 									"annotation" : "none",
 									"floatoutput" : 1,
+									"hidden" : 1,
 									"id" : "obj-168",
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -3132,6 +3140,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"format" : 6,
+									"hidden" : 1,
 									"htricolor" : [ 0.87, 0.82, 0.24, 1.0 ],
 									"id" : "obj-169",
 									"maxclass" : "flonum",
@@ -3188,7 +3197,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 60.0, 348.5, 87.0, 22.0 ],
+									"patching_rect" : [ 60.0, 322.5, 87.0, 22.0 ],
 									"style" : "",
 									"text" : "duration $1 $2",
 									"textcolor" : [ 0.92, 0.92, 0.92, 1.0 ]
@@ -3230,7 +3239,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 53.0, 232.5, 94.0, 22.0 ],
+									"patching_rect" : [ 54.0, 208.5, 94.0, 22.0 ],
 									"style" : "",
 									"text" : "periodvar $1 $2",
 									"textcolor" : [ 0.92, 0.92, 0.92, 1.0 ]
@@ -3242,6 +3251,7 @@
 									"fontface" : 2,
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
+									"hidden" : 1,
 									"id" : "obj-132",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -3289,6 +3299,7 @@
 								"box" : 								{
 									"annotation" : "none",
 									"floatoutput" : 1,
+									"hidden" : 1,
 									"id" : "obj-137",
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -3308,6 +3319,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"format" : 6,
+									"hidden" : 1,
 									"htricolor" : [ 0.87, 0.82, 0.24, 1.0 ],
 									"id" : "obj-138",
 									"maxclass" : "flonum",
@@ -3366,6 +3378,7 @@
 									"fontface" : 2,
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
+									"hidden" : 1,
 									"id" : "obj-130",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -3473,6 +3486,7 @@
 								"box" : 								{
 									"annotation" : "none",
 									"floatoutput" : 1,
+									"hidden" : 1,
 									"id" : "obj-81",
 									"maxclass" : "slider",
 									"numinlets" : 1,
@@ -3492,6 +3506,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"format" : 6,
+									"hidden" : 1,
 									"htricolor" : [ 0.87, 0.82, 0.24, 1.0 ],
 									"id" : "obj-82",
 									"maxclass" : "flonum",
@@ -3548,7 +3563,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 66.0, 180.5, 81.0, 22.0 ],
+									"patching_rect" : [ 67.0, 155.5, 81.0, 22.0 ],
 									"style" : "",
 									"text" : "period $1 $2",
 									"textcolor" : [ 0.92, 0.92, 0.92, 1.0 ]
@@ -4778,13 +4793,6 @@
 									"hidden" : 1,
 									"order" : 1,
 									"source" : [ "obj-87", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-6", 0 ],
-									"source" : [ "obj-9", 0 ]
 								}
 
 							}
@@ -6309,7 +6317,7 @@
 					"patching_rect" : [ 0.0, 0.0, 150.0, 175.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 1.0, 150.0, 175.0 ],
-					"text" : "/hornmubu2"
+					"text" : "/hornmubu1"
 				}
 
 			}
