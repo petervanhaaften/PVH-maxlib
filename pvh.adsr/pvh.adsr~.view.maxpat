@@ -69,7 +69,7 @@
 					"presentation_rect" : [ 8.0, 31.0, 50.0, 80.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "Predelay",
+							"parameter_longname" : "Predelay[2]",
 							"parameter_shortname" : "Predelay",
 							"parameter_type" : 0,
 							"parameter_mmin" : 0.0001,
@@ -243,10 +243,10 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 236.0, 120.0, 50.0, 14.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 236.0, 120.0, 50.0, 14.0 ],
+					"presentation_rect" : [ 239.0, 120.0, 50.0, 14.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "release curve",
+							"parameter_longname" : "release curve[2]",
 							"parameter_shortname" : "release curve",
 							"parameter_type" : 0,
 							"parameter_mmax" : 2.0,
@@ -280,10 +280,10 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 133.0, 120.0, 50.0, 14.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 133.0, 120.0, 50.0, 14.0 ],
+					"presentation_rect" : [ 123.0, 120.0, 50.0, 14.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "decay curve",
+							"parameter_longname" : "decay curve[2]",
 							"parameter_shortname" : "decay curve",
 							"parameter_type" : 0,
 							"parameter_mmax" : 2.0,
@@ -317,10 +317,10 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 80.0, 120.0, 50.0, 14.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 80.0, 120.0, 50.0, 14.0 ],
+					"presentation_rect" : [ 65.0, 120.0, 50.0, 14.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "attack curve",
+							"parameter_longname" : "attack curve[2]",
 							"parameter_shortname" : "attack curve",
 							"parameter_type" : 0,
 							"parameter_mmax" : 2.0,
@@ -356,7 +356,7 @@
 					"presentation_rect" : [ 181.0, 31.0, 50.0, 80.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "Sustain",
+							"parameter_longname" : "Sustain[2]",
 							"parameter_shortname" : "Sustain",
 							"parameter_type" : 0,
 							"parameter_mmax" : 100.0,
@@ -391,7 +391,7 @@
 					"presentation_rect" : [ 239.0, 31.0, 50.0, 80.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "Release",
+							"parameter_longname" : "Release[5]",
 							"parameter_shortname" : "Release",
 							"parameter_type" : 0,
 							"parameter_mmax" : 8000.0,
@@ -427,7 +427,7 @@
 					"presentation_rect" : [ 123.0, 31.0, 50.0, 80.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "Decay",
+							"parameter_longname" : "Decay[2]",
 							"parameter_shortname" : "Decay",
 							"parameter_type" : 0,
 							"parameter_mmax" : 8000.0,
@@ -463,7 +463,7 @@
 					"presentation_rect" : [ 65.0, 31.0, 50.0, 80.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "Attack",
+							"parameter_longname" : "Attack[2]",
 							"parameter_shortname" : "Attack",
 							"parameter_type" : 0,
 							"parameter_mmin" : 0.0001,
@@ -493,7 +493,7 @@
 					"patching_rect" : [ -0.647217, 0.0, 300.0, 140.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -0.647217, 0.0, 300.0, 140.0 ],
-					"text" : "/#1"
+					"text" : "/adsr2"
 				}
 
 			}
