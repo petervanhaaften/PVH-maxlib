@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 62.0, 278.0, 699.0, 480.0 ],
+		"rect" : [ 62.0, 278.0, 881.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -55,14 +55,13 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-2",
-					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 32.5, 521.0, 274.0, 35.0 ],
+					"patching_rect" : [ 32.5, 521.0, 505.0, 22.0 ],
 					"style" : "",
-					"text" : "mubu.granular~ 1 mubucorpus2 @audio audio @play 1 @positionvar 3 @duplicatechannels 1"
+					"text" : "mubu.granular~ 1 mubucorpus @audio audio @play 1 @positionvar 3 @duplicatechannels 1"
 				}
 
 			}
@@ -87,7 +86,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 563.0, 550.5, 30.0, 30.0 ],
+					"patching_rect" : [ 559.0, 559.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -99,7 +98,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 563.0, 512.5, 271.0, 22.0 ],
+					"patching_rect" : [ 559.0, 521.0, 271.0, 22.0 ],
 					"style" : "",
 					"text" : "j.model @description \"mubu granular instrument\""
 				}
@@ -3036,6 +3035,19 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"attr" : "bufferindex",
+					"id" : "obj-7",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 32.5, 491.0, 150.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -3087,6 +3099,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}
