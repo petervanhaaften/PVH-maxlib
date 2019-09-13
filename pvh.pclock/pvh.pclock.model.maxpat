@@ -91,20 +91,6 @@
 			}
 , 			{
 				"box" : 				{
-					"format" : 6,
-					"id" : "obj-24",
-					"maxclass" : "flonum",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 208.0, 277.0, 50.0, 22.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-19",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -124,7 +110,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 244.0, 133.0, 50.0, 22.0 ],
+					"patching_rect" : [ 173.0, 216.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -136,7 +122,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 244.0, 163.0, 79.0, 22.0 ],
+					"patching_rect" : [ 173.0, 246.0, 79.0, 22.0 ],
 					"style" : "",
 					"text" : "pvh.bpm2ms"
 				}
@@ -150,7 +136,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 173.0, 222.0, 443.0, 35.0 ],
+					"patching_rect" : [ 173.0, 174.0, 443.0, 35.0 ],
 					"style" : "",
 					"text" : "j.parameter bpm @type float @repetitions/filter 1 @range 1 5000 @clipmode low @dataspace time @unit ms @default 100"
 				}
@@ -326,16 +312,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 1 ],
-					"order" : 1,
-					"source" : [ "obj-7", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-24", 0 ],
-					"order" : 0,
+					"destination" : [ "obj-11", 0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
