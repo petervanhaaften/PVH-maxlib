@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 59.0, 103.0, 640.0, 480.0 ],
+		"rect" : [ 470.0, 84.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,14 +38,25 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"comment" : "",
-					"id" : "obj-6",
-					"index" : 2,
-					"maxclass" : "outlet",
+					"id" : "obj-9",
+					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 241.0, 195.0, 30.0, 30.0 ],
-					"style" : ""
+					"patching_rect" : [ 60.5, 272.0, 51.0, 20.0 ],
+					"style" : "",
+					"text" : "counter"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 0.0, 272.0, 45.0, 20.0 ],
+					"style" : "",
+					"text" : "bangs"
 				}
 
 			}
@@ -54,11 +65,10 @@
 					"comment" : "",
 					"id" : "obj-5",
 					"index" : 2,
-					"maxclass" : "inlet",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 241.0, 105.0, 30.0, 30.0 ],
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 60.5, 240.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -71,7 +81,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 135.0, 195.0, 30.0, 30.0 ],
+					"patching_rect" : [ 0.0, 240.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -85,22 +95,22 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 135.0, 105.0, 30.0, 30.0 ],
+					"patching_rect" : [ 0.0, 150.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"annotation" : "none",
+					"annotation" : "pvh clock with counter",
 					"id" : "obj-2",
 					"maxclass" : "newobj",
-					"numinlets" : 3,
+					"numinlets" : 2,
 					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 135.0, 150.0, 231.0, 22.0 ],
+					"outlettype" : [ "bang", "int", "" ],
+					"patching_rect" : [ 0.0, 195.0, 140.0, 22.0 ],
 					"style" : "",
-					"text" : "pvh.switch.model #1"
+					"text" : "pvh.pclock.model #1"
 				}
 
 			}
@@ -116,12 +126,13 @@
 					"id" : "obj-1",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "pvh.switch.view.maxpat",
+					"name" : "pvh.pclock.view.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.0, 0.0, 88.0, 38.0 ],
+					"patching_rect" : [ 0.0, 0.0, 150.0, 70.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 150.0, 70.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -136,7 +147,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-6", 0 ],
+					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-2", 1 ]
 				}
 
@@ -145,13 +156,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 1 ],
-					"source" : [ "obj-5", 0 ]
 				}
 
 			}

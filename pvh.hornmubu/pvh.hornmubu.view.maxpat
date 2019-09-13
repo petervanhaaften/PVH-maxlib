@@ -56,7 +56,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 115.0, 141.0, 24.5, 22.0 ],
+					"patching_rect" : [ 115.0, 141.0, 25.0, 22.0 ],
 					"style" : "",
 					"textcolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"triangle" : 0
@@ -80,6 +80,7 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "none",
 					"id" : "obj-3",
 					"maxclass" : "number",
 					"numinlets" : 1,
