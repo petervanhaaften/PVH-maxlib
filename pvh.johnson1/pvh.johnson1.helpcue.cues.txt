@@ -1,0 +1,35 @@
+- cue "test"
+- description "something about this cue"
+# ###########################################
+# 
+/j1/origin 102
+/j1/seq0 1002
+/j1/seq1 0021
+/j1/seq2 1112
+/j1/seq3 0
+/j1/seq4 0
+/j1/seq5 0
+/j1/seq6 0
+/j1/seq7 0
+# 
+/m1/translatedinput 0.000000 1.000000
+/m1/val01 1
+/m1/val02 2
+/m1/val03 3
+/m1/val04 0
+/m1/val05 0
+/m1/val06 0
+/m1/val07 0
+/m1/val08 0
+/m1/val09 0
+/m1/val10 0
+/m1/val11 0
+/m1/val12 0
+/m1/val13 0
+/m1/val14 0
+/m1/val15 0
+/m1/val16 0
+/m1/valout 3.000000
+# 
+# ###########################################
+
