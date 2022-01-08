@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 11,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -42,11 +42,11 @@
 				"box" : 				{
 					"comment" : "degree num 1-7",
 					"id" : "obj-5",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "int" ],
 					"patching_rect" : [ 19.0, 175.0, 30.0, 30.0 ]
 				}
 
@@ -72,7 +72,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-4",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -109,11 +109,12 @@
 					"annotation" : "pitch base selector",
 					"color" : [ 0.941176, 0.690196, 0.196078, 1.0 ],
 					"id" : "obj-1",
+					"linecount" : 3,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "" ],
-					"patching_rect" : [ 19.0, 225.0, 145.0, 22.0 ],
+					"patching_rect" : [ 19.0, 225.0, 145.0, 49.0 ],
 					"text" : "pvh.octavebase.model #1"
 				}
 
@@ -133,63 +134,7 @@
 				}
 
 			}
- ],
-		"parameters" : 		{
-			"obj-2::obj-7" : [ "live.menu", "live.menu", 0 ],
-			"parameterbanks" : 			{
-
-			}
-,
-			"parameter_overrides" : 			{
-				"obj-2::obj-7" : 				{
-					"parameter_invisible" : 0,
-					"parameter_modmode" : 0,
-					"parameter_range" : [ "0", "1", "2", "3", "4", "5", "6", "7", "8" ],
-					"parameter_type" : 2,
-					"parameter_unitstyle" : 10
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "pvh.octavebase.model.maxpat",
-				"bootpath" : "~/src/PVH-maxlib/pvh.octavebase",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pvh.octavebase.view.maxpat",
-				"bootpath" : "~/src/PVH-maxlib/pvh.octavebase",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "j.model.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.ui.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.view.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.remote.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

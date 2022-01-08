@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 11,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -40,6 +40,33 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 261.0, 45.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1.0, 32.5, 140.5, 20.0 ],
+					"text" : " (start scale at this pitch)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 1,
+					"id" : "obj-2",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 186.0, 84.0, 158.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 4.5, 18.0, 138.5, 20.0 ],
+					"text" : "Pitch Base"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"annotation" : "none",
 					"fontsize" : 11.0,
 					"id" : "obj-7",
@@ -50,14 +77,14 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 180.0, 122.5, 100.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.5, 33.5, 135.0, 17.0 ],
+					"presentation_rect" : [ 6.5, 49.5, 135.0, 17.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "C", "C#", "Db", "D", "D#", "Eb", "E", "F", "F#", "Gb", "G", "G#", "Ab", "A", "A#", "Bb", "B" ],
 							"parameter_info" : "none",
 							"parameter_initial" : [ 1.0 ],
 							"parameter_initial_enable" : 1,
-							"parameter_longname" : "live.menu",
+							"parameter_longname" : "live.menu[25]",
 							"parameter_mmax" : 16,
 							"parameter_shortname" : "live.menu",
 							"parameter_type" : 2
@@ -145,7 +172,7 @@
 					"patching_rect" : [ 0.0, 0.0, 150.0, 105.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 70.0 ],
-					"text" : "/#1"
+					"text" : "/baton1-pitchbase"
 				}
 
 			}
