@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 2,
-			"revision" : 0,
+			"minor" : 1,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -40,6 +40,30 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-19",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 403.0, 780.0, 133.0, 22.0 ],
+					"text" : "send #1-valueout"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-7",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 366.0, 688.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"activebgcolor" : [ 0.439216, 0.74902, 0.254902, 1.0 ],
 					"activebgoncolor" : [ 0.92549, 0.364706, 0.341176, 1.0 ],
 					"fontface" : 1,
@@ -55,17 +79,9 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 114.0, 288.0, 34.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
-						"activebgoncolor" : 						{
-							"expression" : ""
-						}
-,
-						"activebgcolor" : 						{
-							"expression" : ""
-						}
-,
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
-							"parameter_longname" : "live.text[3]",
+							"parameter_longname" : "live.text[337]",
 							"parameter_mmax" : 1,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
@@ -102,8 +118,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 1,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -627,7 +643,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 302.222229000000027, 630.0, 125.0, 22.0 ],
+					"patching_rect" : [ 328.222229000000027, 658.0, 125.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -647,7 +663,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 317.666687000000024, 594.0, 50.0, 22.0 ],
-					"text" : "E"
+					"text" : "A"
 				}
 
 			}
@@ -684,7 +700,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 142.0, 582.0, 50.0, 22.0 ],
-					"text" : "E"
+					"text" : "A"
 				}
 
 			}
@@ -699,8 +715,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 1,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1354,8 +1370,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 1,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1924,7 +1940,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 302.222229000000027, 705.0, 151.0, 22.0 ],
+					"patching_rect" : [ 328.222229000000027, 711.0, 151.0, 22.0 ],
 					"text" : "j.remote valout @type float"
 				}
 
@@ -2733,8 +2749,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 2,
-							"revision" : 0,
+							"minor" : 1,
+							"revision" : 8,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3055,6 +3071,23 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-100", 0 ],
+					"order" : 2,
+					"source" : [ "obj-104", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"order" : 0,
+					"source" : [ "obj-104", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"order" : 1,
 					"source" : [ "obj-104", 0 ]
 				}
 
@@ -3777,7 +3810,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-100", 0 ],
-					"midpoints" : [ 171.0, 942.0, 147.0, 942.0, 147.0, 696.0, 288.0, 696.0, 288.0, 696.0, 311.722229000000027, 696.0 ],
+					"midpoints" : [ 171.0, 942.0, 147.0, 942.0, 147.0, 696.0, 288.0, 696.0, 288.0, 696.0, 337.722229000000027, 696.0 ],
 					"order" : 0,
 					"source" : [ "obj-9", 0 ]
 				}
